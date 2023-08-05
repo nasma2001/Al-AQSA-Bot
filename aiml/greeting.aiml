@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0">
+    
+	<category>
+		<pattern> # <set>greeting</set> # </pattern>
+		<template>
+               أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
+        </template> 
+	</category>
+
+    <category>
+        <pattern> اسمك * </pattern>
+        <template>
+            اسمي الأقصى بوت
+       </template>
+    </category>
+
+	<category>
+		<pattern> * صباح </pattern>
+		<template>
+            <random>
+                <li>صباح الخير</li>
+                <li>صباح الدراسة</li>
+                <li>صباح النور</li>
+            </random>
+        </template>
+	</category>
+
+	<category>
+		<pattern> * مساء  </pattern>
+		<template>          
+            <random>
+                <li> مساء النور  </li>
+                <li> مساء الفل </li>
+                <li> مساء الورد </li>
+            </random>
+        </template>
+	</category>
+    
+    <category>
+		<pattern> # <set>Farewell</set> # </pattern>
+        <template>
+            <random>
+                <li>باي</li>
+                <li>إلى اللقاء</li>
+                <li>أراك لاحقا</li>
+                <li>وداعًا</li>
+            </random>
+        </template>
+	</category>
+    
+    <category>
+		<pattern> # <set>thanks</set> # </pattern>
+        <template>
+            <random>
+                <li>عفوًا</li>
+                <li> ولو العفو، آمل أنك استفدت منا </li>
+                <li> العفو، سعيدين بتواصلك معنا </li>
+            </random>
+        </template>
+	</category>
+
+    <category>
+        <pattern> تصبح * خير </pattern>
+        <template> و أنت من أهله</template>
+    </category>
+    
+    <category>
+        <pattern> # كيف حالك # </pattern>
+        <template>
+            <random>
+                <li> لوز </li>
+                <li> الحمد لله </li>
+                <li> كويس </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern> # عندي طلب # </pattern>
+        <template>!تفضل</template>
+    </category>
+    
+    <category>
+        <pattern> # كل عام وانت بخير # </pattern>
+        <template>و انت بخير</template>
+    </category>
+
+    <category>
+        <pattern> يعطيك العافية </pattern>
+        <template>الله يعافيك</template>
+    </category>
+
+    <category>
+        <pattern> يعطيك العافيه </pattern>
+        <template> <srai> يعطيك العافية</srai> </template>
+    </category>
+
+</aiml>

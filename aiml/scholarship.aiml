@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern> # <set> question-tools </set> # <set> scholarship </set> # * </pattern>
+        <template>
+            <think><set name="type_of_scholarship"><star index="1"/></set></think>
+            <srai>scholarship</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern> scholarship </pattern>
+        <template>
+          <condition name="type_of_scholarship">
+               <li value="الطالب وزوجته"><srai>studentAndHisWife</srai></li>
+               <li value="الشؤون"><srai>socialAffairs</srai></li>
+               <li value="المتفوقين في الثانوية العامة"><srai>excellentTawjihiStudents</srai></li>
+               <li value="المتفوقين"><srai>excellentTawjihiStudents</srai></li>
+               <li value="ابناء الاسرى"><srai>childrenOfPrisoners</srai></li>
+               <li value="أبناء الأسرى"><srai>childrenOfPrisoners</srai></li>
+               <li value="اوائل القسم"><srai>excellentUniStudents</srai></li>
+               <li value="أوائل القسم"><srai>excellentUniStudents</srai></li>
+               <li value="أوائل الدفعة"><srai>excellentUniStudents</srai></li>
+               <li value="اوائل الدفعة"><srai>excellentUniStudents</srai></li>
+
+
+               <li value="ابن العامل في مؤسسة حكومية"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير على شهادة الدبلومم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر على الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر على شهادة الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="القبول على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير على دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير على دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر على دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير عدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر عدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير عدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير عالدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر عالدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير عالدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="اجسر عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="تجسير عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="التجسير عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
+               <li value="شهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="بكالويوس"><srai>acceptByBA</srai></li>
+               <li value="القبول على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير على البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير على البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر على البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="القبول على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير على بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير على بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر على بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير عبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر عبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير عبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير عالبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر عالبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير عالبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اجسر عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="تجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="التجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="القبول للبكالوريوس"><srai>acceptByBA</srai></li>
+          </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern> socialAffairs </pattern>
+        <template>
+            يجب إحضار شهادة فاعلة بقرابة من الدرجة الأولى برقم مسجل من وزارة الشؤون الاجتماعية لتفعيل الاعفاء بقيمة 50% ، و يبدأ من الفصل الثاني
+       </template>
+    </category>
+
+    <category>
+        <pattern> studentAndHisWife </pattern>
+        <template>
+            يمنح الإعفاء لكليهما بقيمة 25% شريطة إحضار شهادة فاعلية بالزواج من كاتب العدل ويبدأ من الفصل الثاني ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من الاعفاء
+       </template>
+    </category>
+
+    <category>
+        <pattern> excellentTawjihiStudents </pattern>
+        <template>
+            إذا كان معدلك في الثانوية العامة 95% فما فوق يمكنك الاستفادة من هذا الاعفاء بداية من الفصل الأول ويبقى بنسبة 100% مع بقاء معدلك التراكمي 90% فما فوق ،  و 50% اذا كان معدلك التراكمي ما بين (85%-89.99%) و يجب إحضار نسخة عن شهادة الثانوية العامة ، صورة عن الهوية الشخصية و صورة عن  شهادة الميلاد
+       </template>
+    </category>
+
+    <category>
+        <pattern> childrenOfPrisoners </pattern>
+        <template>
+            يجب إحضار شهادة تثبت أن الأسير رهن الاعتقال الإسرائيلي من وزارة الأسرى ، واذا كنتي ابنة أسير يجب حضار ابنة الأسير شهادة عزوبية أيضاً . ويبدأ الاعفاء من الفصل الثاني ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء
+       </template>
+    </category>
+
+    <category>
+        <pattern> excellentUniStudents </pattern>
+        <template>
+            هناك اعفاء للأول على التخصص بنسبة 100% ، والثاني على التخصص بنسبة 50% بشرط أن لا يقل معدل الطالب الفصلي عن 80%، بعدد(12س.م) على الأقل ، ويمنح الإعفاء للفصل التالي لفصل التفوق
+       </template>
+    </category>
+
+
+
+
+
+
+
+    
+
+    <category>
+        <pattern> acceptByBA </pattern>
+        <template>
+           من خلال الشروط التالية:
+           1- أن يكون قد تخرج من جامعة معترف بها
+           2- ألا يقل معدل الطالب في درجة البكالوريوس عن
+              تقدير جيد باستثناء خريجي الجامعة
+           3- لا يقبل الطالب الحاصل على شهادة الثانوية العامة
+              القسم الأدبي في برنامج علمي
+           4-أن يدرس الطالب في الجامعة ما لا يقل عن 50%
+             من عدد الساعات الواردة في خطة البرنامج الملتحق
+             به(25% لخريجي الجامعة
+       </template>
+    </category>
+
+</aiml>

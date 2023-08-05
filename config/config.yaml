@@ -1,0 +1,16 @@
+bot:
+  name: AL-Aqsa Bot
+
+brain:
+  aiml:
+    files:
+      - /aiml/
+
+default_response:
+  text: Sorry, I don't understand your question.
+
+personality:
+  default: neutral
+
+conversation_memory:
+  max_histories: 5
