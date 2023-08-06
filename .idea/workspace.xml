@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0eed9455-d5f8-47c9-90ce-203fe028c120" name="Changes" comment="" />
+    <list default="true" id="0eed9455-d5f8-47c9-90ce-203fe028c120" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Sets/Finance-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/International-secretariat-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/Leadership-management-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/Libraries-Science-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/Literature-faculty.txt " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/Occupational-Therapy-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/PE-science-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/Sociology-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/accounting-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/accounting-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/applied-science-faculty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/applied-science.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/arts-faculty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/business-info-systems-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/communication-science-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/computer-engneering.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/edu-faculty.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/electronic-press-diploma.txt " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/french-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/geographic-history-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/graphic-design-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/information-security-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/islamic-studies-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/it-communications-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/it-specializations.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/law-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/methods-of-teaching.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/mobile-app-programming-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/multimedia-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/multimedia-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/networking-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/org-managment-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/ph-d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/physical-cyper-system-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/press-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/psychology-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/radio-television-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/relations-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/relations-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/social-search.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/sports-training-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/state-administration-master.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/tech-applied-science-major.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/tourism-managment-diploma.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aiml/prof_number.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/PE-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/PE-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/arabic-and-deen-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/arabic-and-deen-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/art-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/art-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/basic-edu-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/basic-edu-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/bussiness-management.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/bussiness-management.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/decor-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/decor-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/defenitions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/defenitions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/english-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/english-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/greeting.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/greeting.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/it-major.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/it-major.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/itFaculty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/itFaculty.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/office_hours.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/office_hours.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/sections.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/sections.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/self.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/self.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/specializations.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/student.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/teachers-title.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/teachers-title.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/technology-major.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/thanks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/thanks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/time.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/time.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/greeting.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/greeting.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aiml/scholarship.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/aiml/scholarship.aiml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +94,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/mac/PycharmProjects/Al-AQSA-Bot/Sets",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -214,6 +285,7 @@
       <updated>1691169588440</updated>
       <workItem from="1691169590731" duration="61000" />
       <workItem from="1691169803308" duration="8925000" />
+      <workItem from="1691297519876" duration="309000" />
     </task>
     <servers />
   </component>

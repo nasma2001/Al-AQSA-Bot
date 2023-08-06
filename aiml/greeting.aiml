@@ -9,14 +9,14 @@
 	</category>
 
     <category>
-        <pattern> اسمك * </pattern>
+        <pattern> # اسمك # </pattern>
         <template>
             اسمي الأقصى بوت
        </template>
     </category>
 
 	<category>
-		<pattern> * صباح </pattern>
+		<pattern> # صباح # </pattern>
 		<template>
             <random>
                 <li>صباح الخير</li>
@@ -27,11 +27,11 @@
 	</category>
 
 	<category>
-		<pattern> * مساء  </pattern>
+		<pattern> # مساء #  </pattern>
 		<template>          
             <random>
                 <li> مساء النور  </li>
-                <li> مساء الفل </li>
+                <li> مساء الدراسة </li>
                 <li> مساء الورد </li>
             </random>
         </template>
@@ -45,6 +45,7 @@
                 <li>إلى اللقاء</li>
                 <li>أراك لاحقا</li>
                 <li>وداعًا</li>
+                <li>الله يسهل عليك</li>
             </random>
         </template>
 	</category>
@@ -54,14 +55,14 @@
         <template>
             <random>
                 <li>عفوًا</li>
-                <li> ولو العفو، آمل أنك استفدت منا </li>
+                <li> ولو العفو، بتمنى تكون استفدت منا </li>
                 <li> العفو، سعيدين بتواصلك معنا </li>
             </random>
         </template>
 	</category>
 
     <category>
-        <pattern> تصبح * خير </pattern>
+        <pattern> تصبح # خير </pattern>
         <template> و أنت من أهله</template>
     </category>
     
@@ -69,9 +70,10 @@
         <pattern> # كيف حالك # </pattern>
         <template>
             <random>
-                <li> لوز </li>
-                <li> الحمد لله </li>
-                <li> كويس </li>
+                <li> لوز و أنت؟ </li>
+                <li> الحمد لله وأنت؟ </li>
+                <li> كويس و أنت؟ </li>
+                <li> بسلم عليك </li>
             </random>
         </template>
     </category>
@@ -87,13 +89,21 @@
     </category>
 
     <category>
-        <pattern> يعطيك العافية </pattern>
+        <pattern>يعطيك # العافية</pattern>
         <template>الله يعافيك</template>
     </category>
 
     <category>
-        <pattern> يعطيك العافيه </pattern>
-        <template> <srai> يعطيك العافية</srai> </template>
+        <pattern>يعطيك # العافيه</pattern>
+        <template> <srai>يعطيك # العافية</srai> </template>
+    </category>
+    <category>
+        <pattern> يعطيك # عافية </pattern>
+        <template> <srai>يعطيك # العافية</srai> </template>
+    </category>
+    <category>
+        <pattern> يعطيك # عافيه </pattern>
+        <template> <srai>يعطيك # العافية</srai> </template>
     </category>
 
 </aiml>
