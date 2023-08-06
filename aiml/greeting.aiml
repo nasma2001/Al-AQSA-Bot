@@ -63,7 +63,7 @@
 
     <category>
         <pattern> تصبح # خير </pattern>
-        <template> و أنت من أهله</template>
+        <template>  وأنت من أهل الخير </template>
     </category>
     
     <category>
@@ -85,7 +85,7 @@
     
     <category>
         <pattern> # كل عام وانت بخير # </pattern>
-        <template>و انت بخير</template>
+        <template>و أنت بخير</template>
     </category>
 
     <category>

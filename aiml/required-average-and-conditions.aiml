@@ -1,0 +1,280 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0">
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>arabic-major</set> # </pattern>
+		<template>
+            تخصص اللغة العربية وأساليب تدريسها: للطلاب 65% وللطالبات 80% وسعر الساعة 10 دنانير
+            تخصص اللغة العربية وآدابها: كلا الجنسين 65% وسعر الساعة 10دنانير
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>english-major</set> # </pattern>
+		<template>
+        تخصص اللغة الانجليزية و أساليب تدريسها، للطلاب 65% وللطالبات 80% وسعر الساعة 10 دنانير
+        تخصص تعليم اللغة الانجليزية، للطلاب 65% وللطالبات 75% وسعر الساعة 10 دنانير
+        تخصص اللغة الانجليزية وآدابها، للطلاب 65% وللطالبات 70% وسعر الساعة 10 دنانير
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>frensh-major</set> # </pattern>
+		<template>
+            ٦٥٪ ، ومتاحة في فرع غزة فقط و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #تاريخ# </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #جغرافيا# </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #رياضيات# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #حساب# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #كيمياء# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #كيميا# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #فيزياء# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #فيزيا# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #أحياء# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>islamic-studies-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>psychology-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>basic-edu-major</set> # </pattern>
+		<template>
+            للطلاب ٦٥٪ للطالبات ٧٠٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>arabic-and-deen</set> # </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set>  #علوم# </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>geographic-history-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>bussiness-management</set> # </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٣ دنانير    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>accounting-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٣ دنانير    
+        </template> 
+	</category>
+
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>business-info-systems-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٣ دنانير    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>art-major</set> # </pattern>
+		<template>
+            ٦٠٪ و سعر الساعة ١٢ دنانير    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>decor-major</set> # </pattern>
+		<template>
+            الفرع العلمي :للطلاب ٦٥٪ للطالبات ٧٠٪ 
+الفرع الادبي :للطلاب ٧٠٪ للطالبات ٧٥٪       
+سعر الساعة ١٢ دينار    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>graphic-design-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٢ دنانير    
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #تمريض# </pattern>
+		<template>
+            الفرع العلمي : للطلاب ٧٠٪ للطالبات ٧٥٪ 
+            الفرع الادبي : للطلاب ٨٠٪ للطالبات ٩٠٪  و سعر الساعة ١٥ دينار      
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>Laboratory-sciences-major</set> # </pattern>
+		<template>
+            للطلاب ٧٠٪ للطالبات ٧٥٪ ، للفرع العلمي فقط
+            سعر الساعة ١٥ دنانير        
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>computer-engneering</set># </pattern>
+		<template>
+            ٨٠٪ للفرع العلمي والتكنولوجي 
+            ٩٠٪ للفرع الصناعي
+            سعر الساعة ٢٠ دينار
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>networking-major</set> # </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي 
+            سعر الساعة ١٥ دينار 
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>it-major</set> # </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي 
+            سعر الساعة ١٥ دينار 
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>computer-science-major</set> # </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي 
+            سعر الساعة 12 دينار 
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>Sociology-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #علم المكتبات# </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٠ دنانير
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> # <set>PE-major</set> # </pattern>
+		<template>
+            ٦٠٪ ، ومتاحة في فرع خانيونس فقط
+            سعر الساعة ١٢ دينار
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>sports-training-major</set># </pattern>
+		<template>
+            ٦٠٪ ، ومتاحة في فرع خانيونس فقط
+            سعر الساعة ١٢ دينار        
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>radio-television-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٢ دينار       
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>relations-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٢ دينار       
+        </template> 
+	</category>
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>required-average</set> #<set>press-major</set># </pattern>
+		<template>
+            ٦٥٪ و سعر الساعة ١٢ دينار       
+        </template> 
+	</category>
+
+
+</aiml>
