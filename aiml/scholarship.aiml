@@ -2,9 +2,9 @@
 <aiml version="2.0">
 
     <category>
-        <pattern> # <set> question-tools </set> # <set> scholarship </set> # * </pattern>
+        <pattern> # <set> question-tools </set> # <set> scholarship </set> * </pattern>
         <template>
-            <think><set name="type_of_scholarship"><star index="1"/></set></think>
+            <think><set name="type_of_scholarship"><star index="3"/></set></think>
             <srai>scholarship</srai>
         </template>
     </category>
@@ -17,75 +17,32 @@
                <li value="الشؤون"><srai>socialAffairs</srai></li>
                <li value="المتفوقين في الثانوية العامة"><srai>excellentTawjihiStudents</srai></li>
                <li value="المتفوقين"><srai>excellentTawjihiStudents</srai></li>
+               <li value="الأسرى المحررين"><srai>freePrisoners</srai></li>
+               <li value="الاسرى المحررين"><srai>freePrisoners</srai></li>
                <li value="ابناء الاسرى"><srai>childrenOfPrisoners</srai></li>
                <li value="أبناء الأسرى"><srai>childrenOfPrisoners</srai></li>
+               <li value="ابن الأسير"><srai>childrenOfPrisoners</srai></li>
                <li value="اوائل القسم"><srai>excellentUniStudents</srai></li>
                <li value="أوائل القسم"><srai>excellentUniStudents</srai></li>
                <li value="أوائل الدفعة"><srai>excellentUniStudents</srai></li>
                <li value="اوائل الدفعة"><srai>excellentUniStudents</srai></li>
-
-
-               <li value="ابن العامل في مؤسسة حكومية"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير على شهادة الدبلومم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر على الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر على شهادة الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="القبول على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير على دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير على دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر على دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر على شهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير عدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر عدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير عدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير عالدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر عالدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير عالدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="اجسر عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="تجسير عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير عشهادة الدبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="التجسير عشهادة دبلوم"><srai>acceptByDiploma</srai></li>
-               <li value="شهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="بكالويوس"><srai>acceptByBA</srai></li>
-               <li value="القبول على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير على البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير على البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر على البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر على شهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="القبول على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير على بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير على بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر على بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر على شهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير عبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر عبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير عبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير عالبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر عالبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير عالبكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="اجسر عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="تجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير عشهادة البكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="التجسير عشهادة بكالوريوس"><srai>acceptByBA</srai></li>
-               <li value="القبول للبكالوريوس"><srai>acceptByBA</srai></li>
+               <li value="اول الدفعة"><srai>excellentUniStudents</srai></li>
+               <li value="ابن العامل في مؤسسة حكومية"><srai>sonOfGovernmentEmployee</srai></li>
+               <li value="ابن موظف الحكومة"><srai>sonOfGovernmentEmployee</srai></li>
+               <li value="المرضى"><srai>patients</srai></li>
+               <li value="المريض"><srai>patients</srai></li>
+               <li value="للطلبة من الدول الأخرى"><srai>StudentsFromOtherCountries</srai></li>
+               <li value="الطلبة من الدول الاخرى"><srai>StudentsFromOtherCountries</srai></li>
+               <li value="الطلبه من الدول الاخرى"><srai>StudentsFromOtherCountries</srai></li>
+               <li value="أبناء العاملين في الجامعة"><srai>sonOfUniEmployee</srai></li>
+               <li value="ابناء العاملين في الجامعة"><srai>sonOfUniEmployee</srai></li>
+               <li value="ابناء موظفين الجامعة"><srai>sonOfUniEmployee</srai></li>
+               <li value="ذوي الاحتياجات الخاصة"><srai>disabledStudent</srai></li>
+               <li value="ذوي الاحتياجات الخاصه"><srai>disabledStudent</srai></li>
+               <li value="المعاقين"><srai>disabledStudent</srai></li>
+               <li value="ابناء العاملين في وزارة التربية والتعليم العالي"><srai>sonOfMinistryOfEducationEmployee</srai></li>
+               <li value="أبناء العاملين في وزارة التربية والتعليم العالي"><srai>sonOfMinistryOfEducationEmployee</srai></li>
+               <li value="ابن العامل في وزارة التربية والتعليم"><srai>sonOfMinistryOfEducationEmployee</srai></li>
           </condition>
         </template>
     </category>
@@ -112,6 +69,13 @@
     </category>
 
     <category>
+        <pattern> freePrisoners </pattern>
+        <template>
+            يمكنك الاستفادة من اعفاء الأسرى والمحررين بنسبة 50%  بداية من الفصل الثاني و يجب احضار شهادة تثبت اعتقال الأسير وتحرره من هيئة شئون الاسرى والمحررين
+       </template>
+    </category>
+
+    <category>
         <pattern> childrenOfPrisoners </pattern>
         <template>
             يجب إحضار شهادة تثبت أن الأسير رهن الاعتقال الإسرائيلي من وزارة الأسرى ، واذا كنتي ابنة أسير يجب حضار ابنة الأسير شهادة عزوبية أيضاً . ويبدأ الاعفاء من الفصل الثاني ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء
@@ -126,18 +90,107 @@
     </category>
 
     <category>
-        <pattern> acceptByBA </pattern>
+        <pattern> sonOfGovernmentEmployee </pattern>
         <template>
-           من خلال الشروط التالية:
-           1- أن يكون قد تخرج من جامعة معترف بها
-           2- ألا يقل معدل الطالب في درجة البكالوريوس عن
-              تقدير جيد باستثناء خريجي الجامعة
-           3- لا يقبل الطالب الحاصل على شهادة الثانوية العامة
-              القسم الأدبي في برنامج علمي
-           4-أن يدرس الطالب في الجامعة ما لا يقل عن 50%
-             من عدد الساعات الواردة في خطة البرنامج الملتحق
-             به(25% لخريجي الجامعة
+            مقدار الاعفاء هو 100% ، ويبدأ من الفصل الأول ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء. و يجب إحضار شهادة فاعلة من وزارة التربية والتعليم العالي .
+            إذا كنتِ ابنة موظف يجب احضار شهادة عزوبية .
+            إذا كنتَ ابن موظف متقاعد يجب احضار إفادة من وزارة العمل بأنه لا يعمل  . 
+            إذا كنتِ زوجة موظف أو متقاعد يجب احضار شهادة فاعلة بالزواج من كاتب العدل .
        </template>
     </category>
+
+    <category>
+        <pattern> patients </pattern>
+        <template>
+            إذا كنت مصاب بالثلاسيميا أو اللوكيميا فنعم ، مع تمنياتنا لك بالشفاء ويجب احضار شهادة صحية من وزارة الصحة. ويبدأ اعفاؤك من الفصل الأول بنسبة 100% 
+            غير ذلك لا يوجد اعفاء ولكن يمكنك التقديم للشؤون الاجتماعية .
+       </template>
+    </category>
+
+    <category>
+        <pattern> StudentsFromOtherCountries </pattern>
+        <template>
+            يجب أن تكون من سوريا أو ليبيا أو اليمن لكي تستفيد من هذا الاعفاء بنسبة 100% يجب احضار:
+            شهادة الميلاد ، شهادة الثانوية العامة ، أوراق ثبوتية تثبت أنك تم تهجيرك .
+            100% ويبدأ اعفاؤك من الفصل الأول بنسبة 
+       </template>
+    </category>
+
+    <category>
+        <pattern> sonOfUniEmployee </pattern>
+        <template>
+            يجب احضار:
+            افادة من شئون الموظفين بالجامعة .
+            صورة هوية الموظف والطالب.
+       </template>
+    </category>
+
+    <category>
+        <pattern> disabledStudent </pattern>
+        <template>
+            اعفاء بنسبة تتراوح ما بين 75% الى  100% ويجب احضار شهادة صحية من وزارة الصحة .
+       </template>
+    </category>
+
+    <category>
+        <pattern> sonOfMinistryOfEducationEmployee </pattern>
+        <template>
+            مقدار الاعفاء هو 50% ، ويبدأ من الفصل الأول و يجب احضار:
+            شهادة فاعلة من وزارة التربية والتعليم العالي 
+            اذا كنتِ أنثى  يجب احضار شهادة عزوبية
+       </template>
+    </category>
+
+    <category>
+        <pattern> <set> question-tools </set> # <set> condition </set>  # <set> scholarship </set> </pattern>
+        <template>
+            يجب أن يكون مسجلاً ل 12 ساعة معتمدة على الأقل في الفصل الدراسي النظامي الخاضع للإعفاء.
+       </template>
+    </category>
+
+    <category>
+        <pattern> <set> question-tools </set> # <set> required-average </set> # للاستفادة # <set> scholarship </set> </pattern>
+        <template>
+            يجب أن يكون معدلك التراكمي 70% فما فوق
+       </template>
+    </category>
+
+    <category>
+        <pattern> ماذا يحدث عندما يستحق الطالب أنواعًا مختلفة من الإعفاءات الجامعية في نفس الفصل الدراسي </pattern>
+        <template>
+            يختار الطالب الاستفادة من أحدهما
+       </template>
+    </category>
+
+    <category>
+        <pattern> هل يمكن للطلاب المسجلين في الفصل الصيفي الاستفادة من نظام الإعفاءات الجامعية </pattern>
+        <template>
+            لا يمكن ذلك
+       </template>
+    </category>
+
+    <category>
+        <pattern> <set> question-tools </set> # <set> condition </set> # أبناء الأسرى # رسوم التعليم الحكومي </pattern>
+        <template>
+            يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
+       </template>
+    </category>
+
+    <category>
+        <pattern> <set>question-tools</set> #خطوات الالتحاق * </pattern>
+        <template>
+            إليك خطوات الالتحاق بالبرنامج المطلوب : 
+            دفع ٢٠ دينار كرسوم للالتحاق 
+            تعبئة الطلب الكترونيا 
+            سوف تصلك رسالة بالتخصص الذي تم قبولك فيه 
+            عليك الحضور للتصوير داخل الصالة المخصصة 
+            *تقديم امتحان قدرات او مقابلة شخصية(كلية الفنون ، كلية التربية البدنية و الرياضة، كلية الاعلام، كلية العلوم الطبية 
+            احضار الاوراق المطلوبة للقبول والتسجيل 
+            مراجعة شؤون الطلبة بخصوص المنح والاعفاءات 
+            التوجه للدائرة المالية لدفع الرسوم 
+            التوجه لعمادة القبول والتسجيل لاستلام الجدول و رزمة القبول  
+       </template>
+    </category>
+
 
 </aiml>
