@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1">
+    
+	<category>
+		<pattern> # <set>question-tools</set> # <set>available-programs</set> #<set>master</set>#</pattern>
+		<template>
+               اليك قائمة ببرامج الماجستير : الإرشاد النفسي ، الكيمياء ، اللغة العربية وادابها ، المناهج وطرق التدريس ، الدراسات التاريخية المعاصرة ، القانون والادارة العامة ، القيادة والادارة ، الدبلوماسية والعلاقات الدولية ، ادارة الدولة والحكم الخشية ، الانظمة السيبر مادية ، المحاسبة والتحكيم المالي ، التربية الرياضية ، العلوم الطبية المخبرية ، الرياضيات ، تكنولوجيا التعليم ، الاعلام وعلوم الاتصال
+        </template> 
+	</category>
+
+	<category>
+		<pattern> # <set>question-tools</set> # <set>available-programs</set> #<set>ph-d</set>#</pattern>
+		<template>
+               الارشاد النفسي والتربوي ، الادارة التربوية
+        </template> 
+	</category>
+
+</aiml>
