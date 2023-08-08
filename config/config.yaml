@@ -1,16 +1,43 @@
 bot:
-  name: AL-Aqsa Bot
+  templates:
+    enable: true
+  overrides:
+    allow_system_aiml: true
+    allow_learn_aiml: true
 
-brain:
+  brain:
+    debugfiles: false
+    allow_system_aiml: true
+    allow_learn_aiml: true
+    allow_learnf_aiml: false
+    empty_on_learn: true
+    reload: false
+    readonly: false
+    aiml_dirs: "./aiml"
+    set_files: "./Sets"
+
   aiml:
-    files:
-      - /aiml/
+    allow_system_aiml: true
+    allow_learn_aiml: true
 
-default_response:
-  text: Sorry, I don't understand your question.
+  encoding: utf-8  # Specify the encoding for Arabic characters
 
-personality:
-  default: neutral
+  conversations:
+    max_histories: 100
 
-conversation_memory:
-  max_histories: 5
+
+  language: ar  # Specify the language code for Arabic (ar)
+
+  normalization:
+    map_file: /path/to/your/normal.txt  # Replace with the actual path to your normalization file
+
+  denormalization:
+    map_file: /path/to/your/denormal.txt  # Replace with the actual path to your denormalization file
+
+  response:
+    max_recursion: 100
+
+  splitter:
+    sentence_splitter: programy.nlp.sentencizer.sentence_splitter.BilingualSentenceSplitter
+    tokenizer: programy.nlp.tokenizer.sentence_tokenizer.BilingualSentenceTokenizer
+
