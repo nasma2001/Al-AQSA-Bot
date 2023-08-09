@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0">
+
+    <category>
+		<pattern> # <set>question-tools</set> # <set>exemption</set> # <set>subject</set> #</pattern>
+		<template>
+            يتم تسجيل الاستثناء من خلال رئيس القسم المسؤول عن المساق
+        </template>
+	</category>
+كيف اعرف من هو رئيس القسم المسؤول عن المساق
+	<category>
+		<pattern> # <set>question-tools</set> # <set>exemption</set> # <set>subject</set> #</pattern>
+		<template>
+            يتم تسجيل الاستثناء من خلال رئيس القسم المسؤول عن المساق
+        </template>
+	</category>
+
+</aiml>
