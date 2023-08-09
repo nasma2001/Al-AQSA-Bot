@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<aiml version = "1.0.1">
+<aiml version = "2.0">
     
 	<category>
-		<pattern> # <set>greeting</set> # </pattern>
+		<pattern> #<get>greeting</get># </pattern>
 		<template>
                أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
-        </template> 
+        </template>
 	</category>
 
     <category>
@@ -27,7 +27,7 @@
 	</category>
 
 	<category>
-		<pattern> # مساء #  </pattern>
+		<pattern># مساء *</pattern>
 		<template>          
             <random>
                 <li> مساء النور  </li>
@@ -104,6 +104,16 @@
     <category>
         <pattern> يعطيك # عافيه </pattern>
         <template> <srai>يعطيك # العافية</srai> </template>
+    </category>
+    <category>
+		<pattern>hello</pattern>
+		<template>
+               أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
+        </template>
+	</category>
+    <category>
+        <pattern>#مرحبا</pattern>
+        <template>مرحبًا! كيف يمكنني مساعدتك؟</template>
     </category>
 
 </aiml>
