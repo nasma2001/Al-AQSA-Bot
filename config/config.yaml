@@ -8,7 +8,7 @@ bot:
     reload: false
     readonly: false
     aiml_dirs: "AIML"
-    set_files: "./Sets"
+    set_files: "../Sets"
 
   aiml:
     allow_system_aiml: true

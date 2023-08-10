@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
+
 <aiml version="2.0">
 
     <category>
