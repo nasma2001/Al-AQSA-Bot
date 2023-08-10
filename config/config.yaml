@@ -1,5 +1,4 @@
 bot:
-
   brain:
     allow_system_aiml: true
     allow_learn_aiml: true

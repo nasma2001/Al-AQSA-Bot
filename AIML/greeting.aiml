@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
-
-<aiml version="2.0">
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0">
     
 	<category>
-		<pattern> #<set> greeting </set># </pattern>
+		<pattern> #<get>greeting</get># </pattern>
 		<template>
                أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
         </template>
@@ -29,7 +27,7 @@
 	</category>
 
 	<category>
-		<pattern>#مسا*</pattern>
+		<pattern>مساء *</pattern>
 		<template>          
             <random>
                 <li> مساء النور  </li>
