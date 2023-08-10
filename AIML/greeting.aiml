@@ -1,22 +1,27 @@
-<?xml version = "1.0" encoding = "UTF-8"?>
-<aiml version = "2.0">
+<!-- <?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "2.0"> -->
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
+
+<aiml version="2.0">
     
 	<category>
-		<pattern> #<get>greeting</get># </pattern>
+		<pattern> #<set>greeting</set># </pattern>
 		<template>
                أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
         </template>
 	</category>
 
     <category>
-        <pattern> # اسمك # </pattern>
+        <pattern> #اسمك# </pattern>
         <template>
             اسمي الأقصى بوت
        </template>
     </category>
 
 	<category>
-		<pattern> # صباح # </pattern>
+		<pattern> #صباح# </pattern>
 		<template>
             <random>
                 <li>صباح الخير</li>
@@ -38,7 +43,7 @@
 	</category>
     
     <category>
-		<pattern> # <set>Farewell</set> # </pattern>
+		<pattern> #<set>Farewell</set># </pattern>
         <template>
             <random>
                 <li>باي</li>
@@ -51,7 +56,7 @@
 	</category>
     
     <category>
-		<pattern> # <set>thanks</set> # </pattern>
+		<pattern> #<set>thanks</set># </pattern>
         <template>
             <random>
                 <li>عفوًا</li>
@@ -67,7 +72,7 @@
     </category>
     
     <category>
-        <pattern> # كيف حالك # </pattern>
+        <pattern> #كيف حالك# </pattern>
         <template>
             <random>
                 <li> لوز و أنت؟ </li>
@@ -79,12 +84,12 @@
     </category>
 
     <category>
-        <pattern> # عندي طلب # </pattern>
+        <pattern> #عندي طلب# </pattern>
         <template>!تفضل</template>
     </category>
     
     <category>
-        <pattern> # كل عام وانت بخير # </pattern>
+        <pattern> #كل عام وانت بخير# </pattern>
         <template>و أنت بخير</template>
     </category>
 
