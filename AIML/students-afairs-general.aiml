@@ -17,6 +17,12 @@
             	يتم اغلاق الصفحة حتى يتم تسديد المبلغ وفي حال كان المبلغ بسيط فيجب تسديده بالكامل وفي حال كان المبلغ كبير يتم تسديد جزء منه قبل التسجيل للفصل الجديد
         </template>
 	</category>
+	<category>
+		    <pattern> # <set>questiontools</set> # <set>installment</set> # </pattern>
+		    <template>
+				يرجى مراجعة شؤون الطلبة للمزيد من التفاصيل
+        </template>
+	</category>
 
 
 

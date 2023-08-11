@@ -1,87 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="test some sets without any special char">
+    <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/campus.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/campus.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/exception-.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/exception-.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/greeting.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/greeting.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/hour-price.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/hour-price.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/master-FAQ.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/master-FAQ.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/prof_number.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/prof_number.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/scholarship.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/scholarship.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/students-afairs-general.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/students-afairs-general.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/university-members.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/university-members.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Farewell.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/farewell.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Finance-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/financediploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/International-secretariat-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/internationalsecretariatdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Laboratory-sciences-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/laboratorysciencesmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Leadership-management-master.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/leadershipmanagementmaster.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Libraries-Science-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/librariessciencemajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Literature-faculty.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/literaturefaculty.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Occupational-Therapy-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/occupationaltherapydiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/PE-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/pemajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/PE-science-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/pesciencediploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/Sociology-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/sociologymajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/art-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/artmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/arts-faculty.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/artsfaculty.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/available-programs.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/availableprograms.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/basic-edu-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/basicedumajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/business-info-systems-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/businessinfosystemsmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/bussiness-management.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/bussinessmanagement.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/communication-science-master.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/communicationsciencemaster.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/computer-engneering.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/computerengneering.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/computer-science-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/computersciencemajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/decor-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/decormajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/diploma-programs.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/diplomaprograms.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/edu-faculty.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/edufaculty.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/electronic-press-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/electronicpressdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/english-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/englishmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/exemption.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/exemption.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/french-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/frenchmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/geographic-history-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/geographichistorymajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/get-benefits.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/getbenefits.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/graphic-design-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/graphicdesignmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/how-much.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/howmuch.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/information-security-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/informationsecuritydiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/islamic-studies-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/islamicstudiesmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/it-communications-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/itcommunicationsdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/it-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/itmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/it-teachers-names.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/itteachersnames.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/itFaculty.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/itfaculty.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/law-master.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/lawmaster.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/major-equation.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/majorequation.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/major-transfer.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/majortransfer.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/methods-of-teaching.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/methodsofteaching.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/mobile-app-programming-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/mobileappprogrammingdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/more.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/more.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/multimedia-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/multimediadiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/multimedia-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/multimediamajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/negation-letters.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/negationletters.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/networking-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/networkingmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/office_hours.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/officehours.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/org-managment-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/orgmanagmentdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/ph-d.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/phd.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/physical-cyper-system-master.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/physicalcypersystemmaster.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/popular-words.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/popularwords.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/press-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/pressmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/psychology-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/psychologymajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/question-tools.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/questiontools.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/radio-television-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/radiotelevisionmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/relations-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/relationsdiploma.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/relations-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/relationsmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/required-average.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/requiredaverage.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/revision-request.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/revisionrequest.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/social-search.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/socialsearch.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/sports-training-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/sportstrainingmajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/state-administration-master.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/stateadministrationmaster.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/study-plan.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/studyplan.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/teachers-title.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/teacherstitle.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/teaching-methods.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/teachingmethods.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/tech-applied-science-major.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/techappliedsciencemajor.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/tourism-managment-diploma.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/tourismmanagmentdiploma.set" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691705317042</updated>
-      <workItem from="1691705318145" duration="7643000" />
+      <workItem from="1691705318145" duration="11410000" />
     </task>
     <task id="LOCAL-00001" summary="change .txt to .set and change its form , delete some maps folder , make some changes in aimls">
       <created>1691705632673</created>
@@ -142,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691707017230</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag">
+      <created>1691713120215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691713120215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +93,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change .txt to .set and change its form , delete some maps folder , make some changes in aimls" />
     <MESSAGE value="test some sets without any special char" />
-    <option name="LAST_COMMIT_MESSAGE" value="test some sets without any special char" />
+    <MESSAGE value="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag" />
   </component>
 </project>
