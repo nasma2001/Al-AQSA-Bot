@@ -2,14 +2,14 @@
 <aiml version="2.0">
     
 	<category>
-		<pattern> #<set>question-tools</set> #غزة#الحرم الجامعي#مقر#</pattern>
+		<pattern> #<set>questiontools</set> #غزة#الحرم الجامعي#مقر#</pattern>
 		<template>
                مبنى الإدارة ، مبنى القدس ، مبنى الحرازين ، مبنى اللد ، مبنى يافا ، مبنى الجليل ، مبنى الوحدة ، مبنى المختبرات العلمية
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #خان#الحرم الجامعي#مقر#</pattern>
+		<pattern> # <set>questiontools</set> #خان#الحرم الجامعي#مقر#</pattern>
 		<template>
             مبنى الإدارة : مبنى بيسان.
             مبنى المكتبة المركزية : مبنى المجدل.

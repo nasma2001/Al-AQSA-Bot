@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
     <category>
-        <pattern> # <set> question-tools </set> # <set> scholarship </set> * </pattern>
+        <pattern> # <set> questiontools </set> # <set> scholarship </set> * </pattern>
         <template>
             <think><set name="type_of_scholarship"><star index="3"/></set></think>
             <srai>scholarship</srai>
@@ -142,7 +142,7 @@
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # <set>student</set>  # <set>get-benefits</set> # <set>subject</set> #
+        <pattern># <set> questiontools </set> # <set>student</set>  # <set>getbenefits</set> # <set>subject</set> #
                 <set>scholarship</set> # <set>more</set></pattern>
         <template>
             لا يمكن ذلك
@@ -150,14 +150,14 @@
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # <set>subject</set> #<set>equivalencies</set># <set>scholarship</set> #</pattern>
+        <pattern># <set> questiontools </set> # <set>subject</set> #<set>equivalencies</set># <set>scholarship</set> #</pattern>
         <template>
             لا يمكن ذلك
        </template>
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # نسبه # <set>scholarship</set> # <set>sons</set>
+        <pattern># <set> questiontools </set> # نسبه # <set>scholarship</set> # <set>sons</set>
          # <set> scholarship </set> # <set>prisoners</set> # </pattern>
         <template>
            100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
@@ -165,7 +165,7 @@
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # نسبة # <set>scholarship</set> # <set>sons</set>
+        <pattern># <set> questiontools </set> # نسبة # <set>scholarship</set> # <set>sons</set>
          # <set> scholarship </set> # <set>prisoners</set> # </pattern>
         <template>
             100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
@@ -173,62 +173,62 @@
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # <set> condition </set>  # <set> scholarship </set> </pattern>
+        <pattern># <set> questiontools </set> # <set> condition </set>  # <set> scholarship </set> </pattern>
         <template>
             يجب أن يكون مسجلاً ل 12 ساعة معتمدة على الأقل في الفصل الدراسي النظامي الخاضع للإعفاء.
        </template>
     </category>
 
     <category>
-        <pattern># <set> question-tools </set> # <set> required-average </set> # <set>get-benefits</set> # <set> scholarship </set> </pattern>
+        <pattern># <set> questiontools </set> # <set> requiredaverage </set> # <set>getbenefits</set> # <set> scholarship </set> </pattern>
         <template>
             يجب أن يكون معدلك التراكمي 70% فما فوق
        </template>
     </category>
 
     <category>
-        <pattern># <set>question-tools</set> # <set>sections</set> # <set>scholarship</set> # نفس الفصل</pattern>
+        <pattern># <set>questiontools</set> # <set>sections</set> # <set>scholarship</set> # نفس الفصل #</pattern>
         <template>
             يختار الطالب الاستفادة من أحدهما
        </template>
     </category>
 
     <category>
-        <pattern># <set>question-tools</set> # <set>sections</set> # <set>scholarship</set> # نفس فصل #</pattern>
+        <pattern># <set>questiontools</set> # <set>sections</set> # <set>scholarship</set> # نفس فصل #</pattern>
         <template>
             يختار الطالب الاستفادة من أحدهما
        </template>
     </category>
 
     <category>
-        <pattern># <set>question-tools</set> # صيفي # <set>scholarship</set> #</pattern>
+        <pattern># <set>questiontools</set> # صيفي # <set>scholarship</set> #</pattern>
         <template>
             لا يمكن ذلك
        </template>
     </category>
 
     <category>
-        <pattern># <set>question-tools</set> # الصيفي # <set>scholarship</set> #</pattern>
+        <pattern># <set>questiontools</set> # الصيفي # <set>scholarship</set> #</pattern>
         <template>
             لا يمكن ذلك
        </template>
     </category>
 
     <category>
-        <pattern> <set> question-tools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
+        <pattern> <set> questiontools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
         <template>
             يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
        </template>
     </category>
     <category>
-        <pattern> <set> question-tools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
+        <pattern> <set> questiontools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
         <template>
             يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
        </template>
     </category>
 
     <category>
-        <pattern> # <set>question-tools</set> # خطوات الالتحاق * </pattern>
+        <pattern> # <set>questiontools</set> # خطوات الالتحاق * </pattern>
         <template>
             إليك خطوات الالتحاق بالبرنامج المطلوب : 
             دفع ٢٠ دينار كرسوم للالتحاق 

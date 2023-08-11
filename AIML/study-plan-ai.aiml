@@ -2,485 +2,555 @@
 <aiml version="2.0">
     
 	<category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>PE-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>pemajor</set># </pattern>
 		<template>
-               اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/5825/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-الخطة-الدراسية
-        </template> 
+               اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://www.alaqsa.edu.ps/ar/page/5825/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-الخطة-الدراسية</link>
+        </template>
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set>#<set>master</set>#<set>PE-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set>#<set>master</set>#<set>pemajor</set># </pattern>
 		<template>
-               اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/6047/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-ماجستير-التربية-الرياضية
+               اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://www.alaqsa.edu.ps/ar/page/6047/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-ماجستير-التربية-الرياضية</link>
+
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set>#<set>sports-training-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set>#<set>sportstrainingmajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5833/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://alaqsa.edu.ps/ar/page/5833/جامعة-الأقصى-كلية-التربية-البدنية-والرياضة-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set>#<set>islamic-studies-major</set># <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set>#<set>islamicstudiesmajor</set># <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5280/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			 اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5280/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>arabic-major</set># <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>arabicmajor</set># <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5290/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5290/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>english-major</set># <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>englishmajor</set># <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5302/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+            اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://alaqsa.edu.ps/ar/page/5302/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #تاريخ# <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #تاريخ# <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5309/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5309/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #جغرافيا# <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #جغرافيا# <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5316/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5316/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #جغرافية# <set> teaching-methods </set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #جغرافية# <set> teachingmethods </set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5316/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5316/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #رياضيات# <set> teaching-methods </set> #</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #رياضيات# <set> teachingmethods </set> #</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5323/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5323/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #حساب# <set> teaching-methods </set> #</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #حساب# <set> teachingmethods </set> #</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5323/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://alaqsa.edu.ps/ar/page/5323/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #فيزيا# <set> teaching-methods </set> #</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #فيزيا# <set>teachingmethods</set> #</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5272/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5272/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #كيميا# <set> teaching-methods </set> #</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #كيميا# <set>teachingmethods</set> #</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5394/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5394/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #أحياء# <set> teaching-methods </set> #</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #احياء# <set>teachingmethods</set> #</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5344/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5344/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>french-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>frenchmajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5892/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-قسم-اللغة-الفرنسية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5892/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-قسم-اللغة-الفرنسية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #تاريخ# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #تاريخ# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/5899/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-التاريخ-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://www.alaqsa.edu.ps/ar/page/5899/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-التاريخ-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>Libraries-Science-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>librariessciencemajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/5906/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-علوم-المكتبات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://www.alaqsa.edu.ps/ar/page/5906/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-علوم-المكتبات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>Sociology-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>sociologymajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5915/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-علم-الاجتماع-والخدمة-الاجتماعية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5915/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-علم-الاجتماع-والخدمة-الاجتماعية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set>#<set>islamic-studies-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set>#<set>islamicstudiesmajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5920/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الدراسات-الاسلامية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5920/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الدراسات-الاسلامية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>arabic-major</set># </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>arabicmajor</set># </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5927/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-العربية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5927/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-العربية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>english-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>englishmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5934/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-الانجليزية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5934/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-الانجليزية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #جغرافيا# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #جغرافيا# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #جغرافية# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #جغرافية# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #فيزيا# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #فيزيا# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5265/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5265/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #كيميا# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #كيميا# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5286/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5286/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #أحياء#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #احياء#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5403/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الاحياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5403/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الاحياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #رياضيات#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #رياضيات#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/6035/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://www.alaqsa.edu.ps/ar/page/6035/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #حساب#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #حساب#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://www.alaqsa.edu.ps/ar/page/6035/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://www.alaqsa.edu.ps/ar/page/6035/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>Laboratory-sciences-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>laboratorysciencesmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5513/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-العلوم-الطبية-المخبرية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5513/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-العلوم-الطبية-المخبرية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #تمريض#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #تمريض#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5521/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-التمريض-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://alaqsa.edu.ps/ar/page/5521/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-التمريض-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>computer-engneering</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>computerengneering</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5716/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5716/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>computer-science-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>computersciencemajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5696/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-علوم-الحاسوب-والمعلومات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5696/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-علوم-الحاسوب-والمعلومات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>networking-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>networkingmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5709/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5709/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>tech-applied-science-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>techappliedsciencemajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5702/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-علوم-الحاسوب-والمعلومات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5702/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-علوم-الحاسوب-والمعلومات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>multimedia-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>multimediamajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/6056/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/6056/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>bussiness-management</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>bussinessmanagement</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5669/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-ادارة-اعمال-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5669/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-ادارة-اعمال-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>accounting-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>accountingmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5684/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-المحاسبة-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5684/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-المحاسبة-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>business-info-systems-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>businessinfosystemsmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5737/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-نظم-المعلومات-الإدارية-والتجارية-المعاصرة-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5737/جامعة-الأقصى-كلية-الإدارة-والتمويل-الأقسام-الأكاديمية-نظم-المعلومات-الإدارية-والتجارية-المعاصرة-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>press-major</set>#</pattern>
+		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>pressmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5578/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-قسم-الصحافة-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5578/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-قسم-الصحافة-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>relations-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>relationsdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5585/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-قسم-العلاقات-العامة-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5585/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-قسم-العلاقات-العامة-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>radio-television-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>radiotelevisionmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5592/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-الإذاعة-والتلفزيون-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5592/جامعة-الأقصى-كلية-الاعلام-الأقسام-الأكاديمية-الإذاعة-والتلفزيون-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>graphic-design-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>graphicdesignmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5612/جامعة-الأقصى-كلية-الفنون-الجميلة-الفنون-التشكيلية---تصميم-جرافيك-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://alaqsa.edu.ps/ar/page/5612/جامعة-الأقصى-كلية-الفنون-الجميلة-الفنون-التشكيلية---تصميم-جرافيك-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #تشكيلية#فنون#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #تشكيلية#فنون#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5612/جامعة-الأقصى-كلية-الفنون-الجميلة-الفنون-التشكيلية---تصميم-جرافيك-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5612/جامعة-الأقصى-كلية-الفنون-الجميلة-الفنون-التشكيلية---تصميم-جرافيك-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>art-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>artmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5620/جامعة-الأقصى-كلية-الفنون-الجميلة-التربية-الفنية-والفنون-الرقمية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5620/جامعة-الأقصى-كلية-الفنون-الجميلة-التربية-الفنية-والفنون-الرقمية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #<set>decor-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #<set>decormajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5632/جامعة-الأقصى-كلية-الفنون-الجميلة-الديكور-والتصميم-الداخلي-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5632/جامعة-الأقصى-كلية-الفنون-الجميلة-الديكور-والتصميم-الداخلي-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #كيميا# </pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #كيميا# </pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/6025/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/6025/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #رياضيات#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #رياضيات#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/6043/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/6043/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #حساب#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #حساب#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/6043/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/6043/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>Laboratory-sciences-major</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>laboratorysciencesmajor</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5531/جامعة-الأقصى-كلية-العلوم-الطبية-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5531/جامعة-الأقصى-كلية-العلوم-الطبية-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>physical-cyper-system-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>physicalcypersystemmaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5061/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5061/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>law-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>lawmaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5753/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5753/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>Leadership-management-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>leadershipmanagementmaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5761/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5761/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>state-administration-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>stateadministrationmaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5769/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5769/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>accounting-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>accountingmaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5777/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5777/جامعة-الأقصى-كلية-الإدارة-والتمويل-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set># <set>master</set> #<set>communication-science-master</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set># <set>master</set> #<set>communicationsciencemaster</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://alaqsa.edu.ps/ar/page/5599/جامعة-الأقصى-كلية-الاعلام-الخطة-الدراسية
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://alaqsa.edu.ps/ar/page/5599/جامعة-الأقصى-كلية-الاعلام-الخطة-الدراسية</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>multimedia-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>multimediadiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4942/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/4942/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>information-security-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>informationsecuritydiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4945/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://cc.alaqsa.edu.ps/ar/page/4945/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>it-communications-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>itcommunicationsdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4948/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://cc.alaqsa.edu.ps/ar/page/4948/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>mobile-app-programming-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>mobileappprogrammingdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5040/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://cc.alaqsa.edu.ps/ar/page/5040/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-التكنولوجية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>bussiness-management</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>bussinessmanagement</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4992/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://cc.alaqsa.edu.ps/ar/page/4992/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>International-secretariat-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>internationalsecretariatdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4995/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+			<link>https://cc.alaqsa.edu.ps/ar/page/4995/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنام</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>Finance-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>financediploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/4998/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/4998/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>org-managment-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>orgmanagmentdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5001/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5001/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>tourism-managment-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>tourismmanagmentdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5014/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5014/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--العلوم-الادارية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>relations-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>relationsdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5007/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--الاعلام-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5007/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--الاعلام-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>electronic-press-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>electronicpressdiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5010/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--الاعلام-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5010/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--الاعلام-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>PE-science-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>pesciencediploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5019/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--علوم-التربية-البدنية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5019/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--علوم-التربية-البدنية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #دبلوم#<set>Occupational-Therapy-diploma</set>#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #دبلوم#<set>occupationaltherapydiploma</set>#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5024/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--المهن-الطبية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5024/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--المهن-الطبية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>question-tools</set> #<set>study-plan</set> #تربية الطفل#دبلوم#</pattern>
+		<pattern> # <set>questiontools</set> #<set>studyplan</set> #تربية الطفل#دبلوم#</pattern>
 		<template>
-            اليك رابط الخطة الدراسية لهذا التخصص : https://cc.alaqsa.edu.ps/ar/page/5024/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--المهن-الطبية-الخطة-التدريسية-للبرنامج
+			اليك رابط الخطة الدراسية لهذا التخصص :
+            <link>https://cc.alaqsa.edu.ps/ar/page/5024/جامعة-الأقصى-كلية-مجتمع-الأقصى-للدراسات-المتوسطة--المهن-الطبية-الخطة-التدريسية-للبرنامج</link>
         </template> 
 	</category>
 

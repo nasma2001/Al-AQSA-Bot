@@ -37,7 +37,7 @@
 	</category>
     
     <category>
-		<pattern> #<set>Farewell</set># </pattern>
+		<pattern> #<set>farewell</set># </pattern>
         <template>
             <random>
                 <li>باي</li>

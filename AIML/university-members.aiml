@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <aiml version="2.0">
 	<category>
-		<pattern> # <set>question-tools</set> # <set>members</set> #<set>academic-affairs</set>#</pattern>
+		<pattern> # <set>questiontools</set> # <set>members</set> #<set>academicaffairs</set>#</pattern>
 		<template>
             د. رائد حسين الحجار: نائب الرئيس للشؤون الأكاديمية                                                            
 			د. يوسف يوسف : مساعد نائب الرئيس الشؤون الاكاديمية - الحرازين
@@ -20,91 +20,77 @@
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>Literature-faculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>literaturefaculty</set>#</pattern>
 		<template>
     		د. محمود الشامي
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>applied-science-faculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>appliedsciencefaculty</set>#</pattern>
 		<template>
     		أ.د. علي الاسطل
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>edu-faculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>edufaculty</set>#</pattern>
 		<template>
     		أ.د. فؤاد عياد
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>arts-faculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>artsfaculty</set>#</pattern>
 		<template>
     		د. عاهد حلس
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>PE-major</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>pemajor</set>#</pattern>
 		<template>
     		د. أحمد يوسف حمدان
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>الاعلام</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>الاعلام</set>#</pattern>
 		<template>
     		د. غسان حرب
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># الإعلام#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># الإعلام#</pattern>
 		<template>
     		د. غسان حرب
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># مجتمع الاقصى #</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># مجتمع الاقصى #</pattern>
 		<template>
     		د. عبدالناصر ريان
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># العلوم الطبية #</pattern>
-		<template>
-    		د. أيوب الدلو
-        </template> 
-	</category>
-
-	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># العلوم الطبيه #</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set>#<set>laboratorysciencesmajor</set>#</pattern>
 		<template>
     		د. أيوب الدلو 
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># العلوم الطبيه #</pattern>
-		<template>
-    		د. أيوب الدلو 
-        </template> 
-	</category>
-
-	<category>
-		<pattern> # <set>question-tools</set>  # عميد # <set>collage</set># <set>itFaculty</set> #</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>itfaculty</set> #</pattern>
 		<template>
 			د.خالد شرف
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # <set>members</set> # <set>administrative-and-financial-affairs</set> #</pattern>
+		<pattern> # <set>questiontools</set>  # <set>members</set> # <set>administrativeandfinancialaffairs</set> #</pattern>
 		<template>
     		د. فايق رمضان الناعوق : نائب رئيس الجامعة للشؤون الإدارية والمالية
 			د. شاكر محمد أبو هربيد : مساعد النائب الإداري والمالي
@@ -119,21 +105,21 @@
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # نائب رئيس # <set>administrative-and-financial-affairs</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # نائب رئيس # <set>administrativeandfinancialaffairs</set>#</pattern>
 		<template>
 			د. فايق رمضان الناعوق
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set>  # الاداري #نائب # مدير مكتب#</pattern>
+		<pattern> # <set>questiontools</set>  # الاداري #نائب # مدير مكتب#</pattern>
 		<template>
 			أ. صفاء حسن رضوان
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> # <set>members</set> #تكنولوجيا المعلومات#مركز#</pattern>
+		<pattern> # <set>questiontools</set> # <set>members</set> #تكنولوجيا المعلومات#مركز#</pattern>
 		<template>
             د.م. يوسف العبد حمودة : رئيس مركز تكنولوجيا المعلومات و مدير دائرة الشبكات والبنية التحتية
 			أ. صابر عليان أبو عمرة : مدير دائرة نظم المعلومات والبوابة الإلكترونية
@@ -145,56 +131,56 @@
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #تكنولوجيا المعلومات#مركز#رئيس#</pattern>
+		<pattern> # <set>questiontools</set> #تكنولوجيا المعلومات#مركز#رئيس#</pattern>
 		<template>
            د.م. يوسف العبد حمودة 
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #البوابة الالكترونية#دائرة#مدير#</pattern>
+		<pattern> # <set>questiontools</set> #البوابة الالكترونية#دائرة#مدير#</pattern>
 		<template>
            أ. صابر عليان أبو عمرة 
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #نظم المعلومات#دائرة#مدير#</pattern>
+		<pattern> # <set>questiontools</set> #نظم المعلومات#دائرة#مدير#</pattern>
 		<template>
            أ. صابر عليان أبو عمرة 
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #الدعم الفني#دائرة#مدير#</pattern>
+		<pattern> # <set>questiontools</set> #الدعم الفني#دائرة#مدير#</pattern>
 		<template>
            أ. يوسف سليم أبو زيد
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #متابعة#دائرة#مدير#</pattern>
+		<pattern> # <set>questiontools</set> #متابعة#دائرة#مدير#</pattern>
 		<template>
            أ. يوسف سليم أبو زيد
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #قواعد البيانات#مشرف#</pattern>
+		<pattern> # <set>questiontools</set> #قواعد البيانات#مشرف#</pattern>
 		<template>
            أ. حسن الحلاق
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #موقع الجامعة#مشرف#</pattern>
+		<pattern> # <set>questiontools</set> #موقع الجامعة#مشرف#</pattern>
 		<template>
            أ. سائد عبيد
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>question-tools</set> #الموقع الالكتروني#مشرف#</pattern>
+		<pattern> # <set>questiontools</set> #الموقع الالكتروني#مشرف#</pattern>
 		<template>
            أ. سائد عبيد
         </template> 
