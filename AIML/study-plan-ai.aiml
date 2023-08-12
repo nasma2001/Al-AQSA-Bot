@@ -44,6 +44,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set># <set>teachingmethods</set> # <set>islamicstudiesmajor</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للدراسات الإسلامية وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5280/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> # <set>islamicstudiesmajor</set> # </pattern>
 		<template>
@@ -65,6 +77,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>arabicmajor</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للغة العربية وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5290/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> # <set>arabicmajor</set> # </pattern>
 		<template>
@@ -86,6 +110,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>englishmajor</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للغة الإنجليزية وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5302/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> #  <set>englishmajor</set> # </pattern>
 		<template>
@@ -107,8 +143,20 @@
 	        </link>
         </template>
 	</category>
-	    <category>
-		<pattern> # <set>studyplan</set> # <set>history</set> # </pattern>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>history</set># </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية:
+		    <link>
+		        <text>للتاريخ وأساليب تدريسه</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5309/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
+	<category>
+	  <pattern> # <set>studyplan</set> # <set>history</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية:
 		    <link>
@@ -128,6 +176,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>geographic</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للجغرافبا وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5316/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	    <category>
 		<pattern> # <set>studyplan</set> # <set>geographic</set> #</pattern>
 		<template>
@@ -149,6 +209,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>math</set> # </pattern>
+		<template>
+		    اليك رابط الخطة الدراسية
+		    <link>
+		        <text>للرياضيات وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5323/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> # <set>math</set> # </pattern>
 		<template>
@@ -170,6 +242,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>physics</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية:
+		    <link>
+		        <text>للفيزياء وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5272/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> # <set>physics</set> # </pattern>
 		<template>
@@ -191,6 +275,18 @@
 	        </link>
         </template>
 	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>chemistry</set> # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية:
+		    <link>
+		        <text>للكيمياء وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5394/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
 	<category>
 		<pattern> # <set>studyplan</set> # <set>chemistry</set> # </pattern>
 		<template>
@@ -205,6 +301,17 @@
 
     <category>
 		<pattern> # <set>studyplan</set> # <set>biology</set> # <set>teachingmethods</set> #</pattern>
+		<template>
+		    إليك رابط الخطة الدراسية:
+		    <link>
+		        <text>الأحياء وأساليب تدريسها</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5344/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>biology</set> #</pattern>
 		<template>
 		    إليك رابط الخطة الدراسية:
 		    <link>
@@ -238,18 +345,6 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>history</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للتاريخ </text>
-		        <url>https://www.alaqsa.edu.ps/ar/page/5899/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-التاريخ-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-	 
-
-    <category>
 		<pattern> # <set>studyplan</set> # <set>librariessciencemajor</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
@@ -271,95 +366,6 @@
         </template>
 	</category>
 
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>literature</set> # <set>englishmajor</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للغة الإنجليرية وآدابها</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5934/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-الانجليزية-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-	<category>
-		<pattern> # <set>studyplan</set> # <set>englishmajor</set> # <set>literature</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للغة الإنجليرية وآدابها</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5934/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-اللغة-الانجليزية-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>literature</set> # <set>geographic</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للجغرافيا وآدابها</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-	 <category>
-		<pattern> # <set>studyplan</set> # <set>geographic</set> # <set>literature</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للجغرافيا وآدابها</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5943/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-الجغرافيا-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>physics</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للفيزياء</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5265/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>chemistry</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للكيمياء</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5286/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>biology</set># </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للأحياء</text>
-		        <url>https://alaqsa.edu.ps/ar/page/5403/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الاحياء-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
-    <category>
-		<pattern> # <set>studyplan</set> # <set>math</set> # </pattern>
-		<template>
-		    إليك رابط الخطة الدراسية
-		    <link>
-		        <text>للرياضيات</text>
-		        <url>https://www.alaqsa.edu.ps/ar/page/6035/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الرياضيات-الخطة-الدراسية</url>
-	        </link>
-        </template>
-	</category>
-
     <category>
 		<pattern> # <set>studyplan</set> # <set>laboratorysciencesmajor</set> # </pattern>
 		<template>
@@ -373,6 +379,17 @@
 
     <category>
 		<pattern> # <set>studyplan</set> # التمريض # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للتمريض</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5521/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-التمريض-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
+    <category>
+		<pattern> # <set>studyplan</set> # تمريض # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 		    <link>
@@ -486,7 +503,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>study-plan</set> # <set>pressmajor</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>pressmajor</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -497,7 +514,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>relationsdiploma</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>relationsmajor</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -662,7 +679,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>multimediadiploma</set>#</pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>multimediadiploma</set>#</pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -673,7 +690,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>informationsecuritydiploma</set>#</pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>informationsecuritydiploma</set>#</pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -684,7 +701,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>itcommunicationsdiploma</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>itcommunicationsdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -695,7 +712,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>mobileappprogrammingdiploma</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>mobileappprogrammingdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -706,7 +723,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>bussinessmanagement</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set># <set>bussinessmanagement</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -717,7 +734,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>internationalsecretariatdiploma</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>internationalsecretariatdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -728,7 +745,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>financediploma</set> #</pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set># <set>diplomaprograms</set> # <set>financediploma</set> #</pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -739,7 +756,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>orgmanagmentdiploma</set> # </pattern>
+		<pattern>  # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>orgmanagmentdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -750,7 +767,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>tourismmanagmentdiploma</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set># <set>tourismmanagmentdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -761,7 +778,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>relationsdiploma</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set># <set>relationsdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -772,7 +789,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>electronicpressdiploma</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>electronicpressdiploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -783,7 +800,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>pesciencediploma</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>pesciencediploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -794,7 +811,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>occupationaltherapydiploma</set> #</pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>occupationaltherapydiploma</set> #</pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
@@ -805,7 +822,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>childraisingmajor</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>childraisingmajor</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
