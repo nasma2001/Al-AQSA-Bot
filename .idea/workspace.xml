@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="edit more responses in aiml , adding som sets">
+      <change afterPath="$PROJECT_DIR$/Sets/name.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/campus.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/campus.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/exception-.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/exception-.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/greeting.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/greeting.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/hour-price.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/hour-price.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/master-FAQ.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/master-faq.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/prof_number.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/prof_number.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/scholarship.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/scholarship.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/howmuch.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/howmuch.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/methodsofteaching.set" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/phonenumber.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/phonenumber.set" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ToN8rkHcehBSAD2ewsDQTvok7c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="" />
+      <created>1691705317042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691705317042</updated>
+      <workItem from="1691705318145" duration="12228000" />
+      <workItem from="1691801034092" duration="7662000" />
+    </task>
+    <task id="LOCAL-00001" summary="change .txt to .set and change its form , delete some maps folder , make some changes in aimls">
+      <created>1691705632673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691705632673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change .txt to .set and change its form , delete some maps folder , make some changes in aimls">
+      <created>1691705681576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691705681576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test some sets without any special char">
+      <created>1691707017230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691707017230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag">
+      <created>1691713120215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691713120215</updated>
+    </task>
+    <task id="LOCAL-00005" summary="edit some responses">
+      <created>1691720929353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691720929353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="edit more responses in aiml , adding som sets">
+      <created>1691807020397</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691807020397</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change .txt to .set and change its form , delete some maps folder , make some changes in aimls" />
+    <MESSAGE value="test some sets without any special char" />
+    <MESSAGE value="remove special chars from all sets file names ,&#10;change aiml set tag according to the prev changes , change aiml files with link tag" />
+    <MESSAGE value="edit some responses" />
+    <MESSAGE value="edit more responses in aiml , adding som sets" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit more responses in aiml , adding som sets" />
+  </component>
+</project>

@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
-
 <aiml version="2.0">
 
     <category>
-		    <pattern> # <set>question-tools</set> # <set>get-benefits</set> # <set>installment</set> # </pattern>
+		    <pattern> # <set>questiontools</set> # <set>getbenefits</set> # <set>installment</set> # </pattern>
 		    <template>
-				حالات خاصة من الطلبة الذين لم يستفيدوا من الإعفاءات أو البحث الاجتماعي.
+				،حالات خاصة من الطلبة الذين لم يستفيدوا من الإعفاءات أو البحث الاجتماعي.
 الطلبة الذين تجاوزوا العبء الدراسي (عدد ساعات الخطة الدراسية) بما لا يزيد عن 20%
-حالات خاصة من طلبة التعليم الموازي بحيث لا يقل معدلهم التراكمي عن 75%
-عدم المقدرة على تسديد الرسوم كاملة
+،حالات خاصة من طلبة التعليم الموازي بحيث لا يقل معدلهم التراكمي عن 75%  
+عدم المقدرة على تسديد الرسوم كاملة،
         </template>
 	</category>
 
     <category>
-		    <pattern> # <set>question-tools</set> # <set>negation-letters</set> # <set>pay</set> # <set>installment</set> # </pattern>
+		    <pattern> # <set>questiontools</set> # <set>negationletters</set> # <set>pay</set> # <set>installment</set> # </pattern>
 		    <template>
             	يتم اغلاق الصفحة حتى يتم تسديد المبلغ وفي حال كان المبلغ بسيط فيجب تسديده بالكامل وفي حال كان المبلغ كبير يتم تسديد جزء منه قبل التسجيل للفصل الجديد
         </template>
 	</category>
 
-
+	<category>
+		    <pattern> # <set>questiontools</set> # <set>installment</set> # </pattern>
+		    <template>
+				يرجى مراجعة شؤون الطلبة للمزيد من التفاصيل
+        </template>
+	</category>
 
     <category>
-		    <pattern> # <set>question-tools</set> # <set>registration</set> #<set>social-search</set> #</pattern>
+		    <pattern> # <set>questiontools</set> # <set>registration</set> #<set>socialsearch</set> #</pattern>
 		    <template>
             	يتم الإعلان للطلاب عن بدء التسجيل للبحث الاجتماعي من قبل عمادة شئون الطلبة من خلال لوحة الإعلانات والموقع الإلكتروني الخاص بالجامعة، وعبر الرسائل القصيرة.
                 يقوم الطالب بتعبئة استمارة البحث الاجتماعي علي الموقع الخاص بجامعة الأقصى www.alaqsa.edu.ps على صفحة الطالب الالكترونية.
@@ -35,36 +38,66 @@
 	</category>
 
     <category>
-		    <pattern> # <set>question-tools</set> # حالات #<set>social-search</set> #</pattern>
+		    <pattern> # <set>questiontools</set> # حالات #<set>socialsearch</set> #</pattern>
 		    <template>
             	ينقسم البحث الاجتماعي الى 4 حالات :
-سيئة جدا : يدفع الطالب قيمة 3 ساعات وتصل عدد الساعات المسجلة 15 ساعة
-سيئة : يدفع الطالب قيمة 6  ساعات وتصل عدد الساعات المسجلة 15 ساعة
-متوسطة :  يدفع الطالب قيمة 9  ساعات وتصل عدد الساعات المسجلة 15 ساعة
-جيدة : يتم دفع المبلغ بالكامل
+				سيئة جدا : يدفع الطالب قيمة 3 ساعات وتصل عدد الساعات المسجلة 15 ساعة
+				سيئة : يدفع الطالب قيمة 6  ساعات وتصل عدد الساعات المسجلة 15 ساعة
+				متوسطة :  يدفع الطالب قيمة 9  ساعات وتصل عدد الساعات المسجلة 15 ساعة
+				جيدة : يتم دفع المبلغ بالكامل
         	</template>
 	</category>
 
-    <category>
-		    <pattern> # <set>question-tools</set> # تحديد #<set>social-search</set> #</pattern>
+	<category>
+		    <pattern> # <set>questiontools</set> # <set>condition</set> #<set>socialsearch</set> #</pattern>
 		    <template>
             	عدد افراد الاسرة
-وجود ذوي الاحتياجات الخاصة
-اذا كان للطالب اخوه في الجامعة
-طبيعة منزل المعيشة (ملك /  اجار)
-يتيم /  حالات انفصال
+				وجود ذوي الاحتياجات الخاصة
+				اذا كان للطالب اخوه في الجامعة
+				طبيعة منزل المعيشة (ملك /  اجار)
+				يتيم /  حالات انفصال
 
            </template>
 	</category>
 
     <category>
-		    <pattern> # <set>question-tools</set> # <set>pay</set> # <set>social-search</set> # </pattern>
+		    <pattern> # <set>questiontools</set> # تحديد #<set>socialsearch</set> #</pattern>
+		    <template>
+            	عدد افراد الاسرة
+				وجود ذوي الاحتياجات الخاصة
+				اذا كان للطالب اخوه في الجامعة
+				طبيعة منزل المعيشة (ملك /  اجار)
+				يتيم /  حالات انفصال
+
+           </template>
+	</category>
+
+	<category>
+		    <pattern> # <set>questiontools</set> # بحدد #<set>socialsearch</set> #</pattern>
+		    <template>
+            	عدد افراد الاسرة
+				وجود ذوي الاحتياجات الخاصة
+				اذا كان للطالب اخوه في الجامعة
+				طبيعة منزل المعيشة (ملك /  اجار)
+				يتيم /  حالات انفصال
+
+           </template>
+	</category>
+
+    <category>
+		    <pattern> # <set>questiontools</set> # <set>pay</set> # <set>socialsearch</set> # </pattern>
 		    <template>
             	عند التخرج يجب تسديد كامل الرسوم للحصول على الشهادة
-في حال لم تستطيع تسديد الرسوم فيحصل الطالب على ورقة الافادة
+				في حال لم تستطيع تسديد الرسوم فيحصل الطالب على ورقة الافادة
 
       	    </template>
 	</category>
-
+	
+	<category>
+		    <pattern> # <set>questiontools</set> # <set>socialsearch</set> # </pattern>
+		    <template>
+				يرجى مراجعة شؤون الطلبة للمزيد من التفاصيل
+        </template>
+	</category>
 
 </aiml>

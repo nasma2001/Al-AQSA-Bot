@@ -1,27 +1,21 @@
-<!-- <?xml version = "1.0" encoding = "UTF-8"?>
-<aiml version = "2.0"> -->
-
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
-
 <aiml version="2.0">
-    
 	<category>
 		<pattern> #<set>greeting</set># </pattern>
 		<template>
-               أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
+               أهلاً بك أنا الأقصى بوت .. كيف يمكننا إفادتك؟
         </template>
 	</category>
 
     <category>
-        <pattern> #اسمك# </pattern>
+        <pattern> #<set>name</set># </pattern>
         <template>
             اسمي الأقصى بوت
        </template>
     </category>
 
 	<category>
-		<pattern> #صباح# </pattern>
+		<pattern> # صباح # </pattern>
 		<template>
             <random>
                 <li>صباح الخير</li>
@@ -31,8 +25,19 @@
         </template>
 	</category>
 
+    <category>
+		<pattern> # صباحك # </pattern>
+		<template>
+            <random>
+                <li>صباحك عسل</li>
+                <li>صباحك دراسة</li>
+                <li>صباحك فل</li>
+            </random>
+        </template>
+	</category>
+
 	<category>
-		<pattern>مساء *</pattern>
+		<pattern># مساء #</pattern>
 		<template>          
             <random>
                 <li> مساء النور  </li>
@@ -41,9 +46,31 @@
             </random>
         </template>
 	</category>
+
+    <category>
+		<pattern># مسا #</pattern>
+		<template>          
+            <random>
+                <li> مساء النور  </li>
+                <li> مساء الدراسة </li>
+                <li> مساء الورد </li>
+            </random>
+        </template>
+	</category>
+
+    <category>
+		<pattern># مساك #</pattern>
+		<template>          
+            <random>
+                <li> مساك ورد   </li>
+                <li> مساك حلو زيك  </li>
+                <li> مسا الدراسة  </li>
+            </random>
+        </template>
+	</category>
     
     <category>
-		<pattern> #<set>Farewell</set># </pattern>
+		<pattern> #<set>farewell</set># </pattern>
         <template>
             <random>
                 <li>باي</li>
@@ -62,63 +89,77 @@
                 <li>عفوًا</li>
                 <li> ولو العفو، بتمنى تكون استفدت منا </li>
                 <li> العفو، سعيدين بتواصلك معنا </li>
+                <li>الله يرضى عنك </li>
             </random>
         </template>
 	</category>
 
     <category>
-        <pattern> تصبح # خير </pattern>
+        <pattern># تصبح # خير #</pattern>
         <template>  وأنت من أهل الخير </template>
     </category>
     
     <category>
-        <pattern> #كيف حالك# </pattern>
+        <pattern> # كيف حالك # </pattern>
         <template>
             <random>
                 <li> لوز و أنت؟ </li>
                 <li> الحمد لله وأنت؟ </li>
                 <li> كويس و أنت؟ </li>
-                <li> بسلم عليك </li>
+                <li> بسلم عليك، وانت يا حلو؟ </li>
             </random>
         </template>
     </category>
 
     <category>
-        <pattern> #عندي طلب# </pattern>
-        <template>!تفضل</template>
+        <pattern> # كيفك # </pattern>
+        <template>
+            <random>
+                <li> لوز </li>
+                <li> الحمد لله </li>
+                <li> كويس </li>
+                <li> بسلم عليك </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern> # كيف الحال # </pattern>
+        <template>
+            <random>
+                <li> لوز و أنت؟ </li>
+                <li> الحمد لله وأنت؟ </li>
+                <li> كويس و أنت؟ </li>
+                <li> بسلم عليك، وانت يا حلو؟ </li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern> # <set>questiontools</set># طلب # </pattern>
+        <template>عيوني!</template>
     </category>
     
     <category>
-        <pattern> #كل عام وانت بخير# </pattern>
-        <template>و أنت بخير</template>
+        <pattern> # كل عام وانت بخير # </pattern>
+        <template>و أنت بألف خير</template>
     </category>
 
     <category>
-        <pattern>يعطيك # العافية</pattern>
-        <template>الله يعافيك</template>
+        <pattern># يعطيك # العافية #</pattern>
+        <template>الله يعافي قلبك</template>
     </category>
 
     <category>
-        <pattern>يعطيك # العافيه</pattern>
-        <template> <srai>يعطيك # العافية</srai> </template>
+        <pattern> # يعطيك # العافيه # </pattern>
+        <template> <srai># يعطيك # العافية #</srai> </template>
     </category>
     <category>
-        <pattern> يعطيك # عافية </pattern>
-        <template> <srai>يعطيك # العافية</srai> </template>
+        <pattern># يعطيك # عافية #</pattern>
+        <template> <srai># يعطيك # العافية #</srai> </template>
     </category>
     <category>
-        <pattern> يعطيك # عافيه </pattern>
-        <template> <srai>يعطيك # العافية</srai> </template>
-    </category>
-    <category>
-		<pattern>hello</pattern>
-		<template>
-               أهلاً بك في الأقصى بوت .. كيف يمكننا إفادتك؟
-        </template>
-	</category>
-    <category>
-        <pattern>#مرحبا</pattern>
-        <template>مرحبًا! كيف يمكنني مساعدتك؟</template>
+        <pattern># يعطيك # عافيه #</pattern>
+        <template> <srai># يعطيك # العافية #</srai> </template>
     </category>
 
 </aiml>

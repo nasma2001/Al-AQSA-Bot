@@ -1,86 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE aiml PUBLIC "-//W3C//DTD AIML 2.0//EN" "http://www.alicebot.org/TR/2001/WD-aiml20.dtd">
-
 <aiml version="2.0">
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>it-communications-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> # <set>itcommunicationsdiploma</set> #</pattern>
 		<template>
             ١٢ دينار
         </template> 
 	  </category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>multimedia-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>multimediadiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	  </category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>information-security-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>informationsecuritydiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	  </category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>mobile-app-programming-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>mobileappprogrammingdiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	  </category>
 
      <category>
-		 <pattern> # <set>how-much</set> # <set>hours</set> #تربية الطفل#</pattern>
+		 <pattern> # <set>howmuch</set> # <set>hours</set> #تربية الطفل#</pattern>
 		 <template>
             ١٠ دينار
          </template>
 	 </category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>relations-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>relationsdiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>electronic-press-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>electronicpressdiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>International-secretariat-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>Internationalsecretariatdiploma</set> #</pattern>
 		<template>
             ١٠ دينار
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>Finance-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>financediploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>Occupational-Therapy-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>occupationaltherapydiploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>how-much</set> # <set>hours</set> #<set>PE-science-diploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>pesciencediploma</set> #</pattern>
 		<template>
             ١٣ دينار
         </template> 
 	  </category>
     <category>
-		<pattern> # <set>question-tools</set> #<set>diploma-programs</set> #</pattern>
+		<pattern> # <set>questiontools</set> # <set>diplomaprograms</set> #</pattern>
 		<template>
 		        تكنولوجيا المعلومات والاتصالات ، الوسائط المتعددة ، امن المعلومات ، برمجة تطبيقات الهواتف الذكية
                   إدارة الأعمال ، تربية الطفل ، الصحافة الإلكترونية ، العلاقات العامة والإعلام ، السكرتارية الدولية
