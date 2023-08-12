@@ -547,7 +547,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> # <set>fineart</set> # </pattern>
+		<pattern> # <set>questiontools</set> # <set>studyplan</set> # <set>fineart</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>
