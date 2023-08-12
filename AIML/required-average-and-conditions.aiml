@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>arabicmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>arabicmajor</set> # </pattern>
 		<template>
             تخصص اللغة العربية وأساليب تدريسها: للطلاب 65% وللطالبات 80% وسعر الساعة 10 دنانير
             تخصص اللغة العربية وآدابها: كلا الجنسين 65% وسعر الساعة 10دنانير
@@ -10,7 +10,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>englishmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>englishmajor</set> # </pattern>
 		<template>
         تخصص اللغة الانجليزية و أساليب تدريسها، للطلاب 65% وللطالبات 80% وسعر الساعة 10 دنانير
         تخصص تعليم اللغة الانجليزية، للطلاب 65% وللطالبات 75% وسعر الساعة 10 دنانير
@@ -19,28 +19,28 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>frenshmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>frenshmajor</set> # </pattern>
 		<template>
             ٦٥٪ ، ومتاحة في فرع غزة فقط و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>geographichistorymajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>geographichistorymajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>appliedscience</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>appliedscience</set># </pattern>
 		<template>
             ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>islamicstudiesmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>islamicstudiesmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير     
         </template> 
@@ -48,42 +48,54 @@
 
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>psychologymajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>psychologymajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>basicedumajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>basicedumajor</set> # </pattern>
 		<template>
             للطلاب ٦٥٪ للطالبات ٧٠٪ و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>arabicanddeenmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>arabicanddeenmajor</set> # </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set>  #علوم# </pattern>
+		<pattern># <set>requiredaverage</set>  # علوم # </pattern>
 		<template>
             ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير     
         </template> 
 	</category>
+    <category>
+		<pattern># <set>requiredaverage</set>  # للعلوم # </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير
+        </template>
+	</category>
+    <category>
+		<pattern># <set>requiredaverage</set>  # العلوم # </pattern>
+		<template>
+            ٦٥٪ فقط للفرع العلمي و سعر الساعة ١٠ دنانير
+        </template>
+	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>bussinessmanagement</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>bussinessmanagement</set> # </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٣ دنانير    
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>accountingmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>accountingmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٣ دنانير    
         </template> 
@@ -91,21 +103,21 @@
 
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>businessinfosystemsmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>businessinfosystemsmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٣ دنانير    
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>artmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>artmajor</set> # </pattern>
 		<template>
             ٦٠٪ و سعر الساعة ١٢ دنانير    
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>decormajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>decormajor</set> # </pattern>
 		<template>
             الفرع العلمي :للطلاب ٦٥٪ للطالبات ٧٠٪ 
 الفرع الادبي :للطلاب ٧٠٪ للطالبات ٧٥٪       
@@ -114,22 +126,36 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>graphicdesignmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>graphicdesignmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٢ دنانير    
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #تمريض# </pattern>
+		<pattern> # <set>requiredaverage</set> # تمريض # </pattern>
 		<template>
             الفرع العلمي : للطلاب ٧٠٪ للطالبات ٧٥٪ 
             الفرع الادبي : للطلاب ٨٠٪ للطالبات ٩٠٪  و سعر الساعة ١٥ دينار      
         </template> 
 	</category>
+    <category>
+		<pattern> # <set>requiredaverage</set> # التمريض # </pattern>
+		<template>
+            الفرع العلمي : للطلاب ٧٠٪ للطالبات ٧٥٪
+            الفرع الادبي : للطلاب ٨٠٪ للطالبات ٩٠٪  و سعر الساعة ١٥ دينار
+        </template>
+	</category>
+    <category>
+		<pattern> # <set>requiredaverage</set> # للتمريض # </pattern>
+		<template>
+            الفرع العلمي : للطلاب ٧٠٪ للطالبات ٧٥٪
+            الفرع الادبي : للطلاب ٨٠٪ للطالبات ٩٠٪  و سعر الساعة ١٥ دينار
+        </template>
+	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>laboratorysciencesmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>laboratorysciencesmajor</set> # </pattern>
 		<template>
             للطلاب ٧٠٪ للطالبات ٧٥٪ ، للفرع العلمي فقط
             سعر الساعة ١٥ دنانير        
@@ -137,7 +163,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>computerengneering</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>computerengneering</set># </pattern>
 		<template>
             ٨٠٪ للفرع العلمي والتكنولوجي 
             ٩٠٪ للفرع الصناعي
@@ -146,7 +172,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>networkingmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>networkingmajor</set> # </pattern>
 		<template>
             ٦٥٪ فقط للفرع العلمي 
             سعر الساعة ١٥ دينار 
@@ -154,7 +180,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>itmajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>itmajor</set> # </pattern>
 		<template>
             ٦٥٪ فقط للفرع العلمي 
             سعر الساعة ١٥ دينار 
@@ -162,7 +188,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>computersciencemajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>computersciencemajor</set> # </pattern>
 		<template>
             ٦٥٪ فقط للفرع العلمي 
             سعر الساعة 12 دينار 
@@ -170,21 +196,21 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>sociologymajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>sociologymajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>librariessciencemajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>librariessciencemajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٠ دنانير
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> # <set>pemajor</set> # </pattern>
+		<pattern> # <set>requiredaverage</set> # <set>pemajor</set> # </pattern>
 		<template>
             ٦٠٪ ، ومتاحة في فرع خانيونس فقط
             سعر الساعة ١٢ دينار
@@ -192,7 +218,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>sportstrainingmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>sportstrainingmajor</set># </pattern>
 		<template>
             ٦٠٪ ، ومتاحة في فرع خانيونس فقط
             سعر الساعة ١٢ دينار        
@@ -200,21 +226,21 @@
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>radiotelevisionmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>radiotelevisionmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٢ دينار       
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>relationsmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>relationsmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٢ دينار       
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>requiredaverage</set> #<set>pressmajor</set># </pattern>
+		<pattern> # <set>requiredaverage</set> #<set>pressmajor</set># </pattern>
 		<template>
             ٦٥٪ و سعر الساعة ١٢ دينار       
         </template> 

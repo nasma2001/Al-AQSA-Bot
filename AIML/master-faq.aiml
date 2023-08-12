@@ -87,13 +87,13 @@
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> #تدريب# <set>student</set> # <set>master</set>#</pattern>
+		<pattern># <set>questiontools</set> # تدريب # <set>student</set> # <set>master</set>#</pattern>
 		<template>
 			نعم يوجد تدريب عملي، كل تخصص على حده
 		</template>
 	</category>
 	<category>
-		<pattern># <set>questiontools</set> #<set>work</set> # <set>master</set>#</pattern>
+		<pattern># <set>questiontools</set> #<set>work</set> # </pattern>
 		<template>
 			نعم يمكنك العمل بجانب دراستك.
 		</template>

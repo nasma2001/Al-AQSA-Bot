@@ -2,7 +2,7 @@
 <aiml version="2.0">
 
     <category>
-		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>itcommunicationsdiploma</set> #</pattern>
+		<pattern> # <set>howmuch</set> # <set>hours</set> # <set>itcommunicationsdiploma</set> #</pattern>
 		<template>
             ١٢ دينار
         </template> 

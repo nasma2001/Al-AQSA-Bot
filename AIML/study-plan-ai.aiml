@@ -423,7 +423,18 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #تمريض# </pattern>
+		<pattern> # <set>studyplan</set> # تمريض # </pattern>
+		<template>
+		    إليك رابط الخطة الدراسية
+		    <link>
+		        <text>للتمريض</text>
+		        <url>https://alaqsa.edu.ps/ar/page/5521/جامعة-الأقصى-كلية-العلوم-الطبية-قسم-التمريض-الخطة-الدراسية</url>
+	        </link>
+        </template>
+	</category>
+
+	<category>
+		<pattern> # <set>studyplan</set> # التمريض # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 		    <link>
@@ -823,7 +834,7 @@
 	</category>
 
     <category>
-		<pattern> # <set>studyplan</set> #دبلوم# <set>pesciencediploma</set> # </pattern>
+		<pattern> # <set>studyplan</set> # <set>diplomaprograms</set> # <set>pesciencediploma</set> # </pattern>
 		<template>
 		    إليك رابط الخطة الدراسية
 			<link>

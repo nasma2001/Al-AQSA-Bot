@@ -228,7 +228,7 @@
     </category>
 
     <category>
-        <pattern> # <set>questiontools</set> # خطوات الالتحاق * </pattern>
+        <pattern> # <set>questiontools</set> # <set>registration</set> # </pattern>
         <template>
             إليك خطوات الالتحاق بالبرنامج المطلوب : 
             دفع ٢٠ دينار كرسوم للالتحاق 
