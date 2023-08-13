@@ -2,20 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="edit more responses in aiml , adding som sets">
-      <change afterPath="$PROJECT_DIR$/Sets/name.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/building.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/countries.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/disabledstudent.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/exellenttawgihi.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/exellentuni.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/freeprisoners.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/gaza.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/government.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/high.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/khanyounis.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/marrige.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/patients.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/socialaffairs.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/specialization.set" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/campus.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/campus.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/exception-.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/exception-.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/greeting.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/greeting.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/hour-price.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/hour-price.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/master-FAQ.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/master-faq.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/prof_number.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/prof_number.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/scholarship.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/scholarship.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/howmuch.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/howmuch.set" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/methodsofteaching.set" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sets/phonenumber.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/phonenumber.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/university-members.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/university-members.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/sections.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/sections.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/shoba.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/shoba.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/student.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/student.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/subject.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/subject.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/thanks.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/thanks.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/time.set" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/work.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/work.set" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691705317042</updated>
       <workItem from="1691705318145" duration="12228000" />
-      <workItem from="1691801034092" duration="7662000" />
+      <workItem from="1691801034092" duration="11233000" />
+      <workItem from="1691884238502" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="change .txt to .set and change its form , delete some maps folder , make some changes in aimls">
       <created>1691705632673</created>
@@ -98,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691807020397</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit more responses in aiml , adding som sets">
+      <created>1691809893157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691809893157</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

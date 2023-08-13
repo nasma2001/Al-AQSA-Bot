@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <aiml version="2.0">
 	<category>
-		<pattern> # <set>questiontools</set> # <set>members</set> #<set>academicaffairs</set>#</pattern>
+		<pattern> # <set>questiontools</set> # <set>members</set> # <set>academicaffairs</set> #</pattern>
 		<template>
-            د. رائد حسين الحجار: نائب الرئيس للشؤون الأكاديمية                                                            
+            د. رائد حسين الحجار: نائب الرئيس للشؤون الأكاديمية
 			د. يوسف يوسف : مساعد نائب الرئيس الشؤون الاكاديمية - الحرازين
 			د. زاهر جبر الحداد : مساعد نائب الرئيس الشؤون الاكاديمية - الوحدة
 			د. محمود الشامي : عميد كلية الآداب والعلوم الإنسانية
@@ -20,77 +20,77 @@
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>literaturefaculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set> # <set>literaturefaculty</set> # </pattern>
 		<template>
     		د. محمود الشامي
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>appliedsciencefaculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set> # <set>appliedsciencefaculty</set> # </pattern>
 		<template>
     		أ.د. علي الاسطل
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>edufaculty</set>#</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set> # <set>edufaculty</set> # </pattern>
 		<template>
     		أ.د. فؤاد عياد
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>artsfaculty</set>#</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set> # <set>artsfaculty</set> # </pattern>
 		<template>
     		د. عاهد حلس
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>pemajor</set>#</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set> # <set>pemajor</set> # </pattern>
 		<template>
     		د. أحمد يوسف حمدان
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>الاعلام</set>#</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set> # الاعلام # </pattern>
 		<template>
     		د. غسان حرب
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># الإعلام#</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set> # الإعلام # </pattern>
 		<template>
     		د. غسان حرب
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># مجتمع الاقصى #</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set># مجتمع الاقصى #</pattern>
 		<template>
     		د. عبدالناصر ريان
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set>#<set>laboratorysciencesmajor</set>#</pattern>
+		<pattern> # <set>questiontools</set> # عميد # <set>collage</set> # <set>laboratorysciencesmajor</set> # </pattern>
 		<template>
     		د. أيوب الدلو 
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set># <set>itfaculty</set> #</pattern>
+		<pattern> # <set>questiontools</set>  # عميد # <set>collage</set> # <set>itfaculty</set> # </pattern>
 		<template>
 			د.خالد شرف
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set>  # <set>members</set> # <set>administrativeandfinancialaffairs</set> #</pattern>
+		<pattern> # <set>questiontools</set>  # <set>members</set> # <set>administrativeandfinancialaffairs</set> # </pattern>
 		<template>
     		د. فايق رمضان الناعوق : نائب رئيس الجامعة للشؤون الإدارية والمالية
 			د. شاكر محمد أبو هربيد : مساعد النائب الإداري والمالي

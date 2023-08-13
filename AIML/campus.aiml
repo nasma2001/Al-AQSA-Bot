@@ -2,21 +2,14 @@
 <aiml version="2.0">
     
 	<category>
-		<pattern> # <set>questiontools</set> # مقر # الحرم الجامعي # غزة# </pattern>
-		<template>
-               مبنى الإدارة ، مبنى القدس ، مبنى الحرازين ، مبنى اللد ، مبنى يافا ، مبنى الجليل ، مبنى الوحدة ، مبنى المختبرات العلمية
-        </template> 
-	</category>
-
-  <category>
-		<pattern> # <set>questiontools</set> # مقرات # الحرم الجامعي # غزة# </pattern>
+		<pattern> # <set>questiontools</set> # <set>building</set> # <set>gaza</set> # </pattern>
 		<template>
                مبنى الإدارة ، مبنى القدس ، مبنى الحرازين ، مبنى اللد ، مبنى يافا ، مبنى الجليل ، مبنى الوحدة ، مبنى المختبرات العلمية
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # مقر # الحرم الجامعي #خان#</pattern>
+		<pattern> # <set>questiontools</set> # <set>building</set> # <set>khanyounis</set> # </pattern>
 		<template>
             مبنى الإدارة : مبنى بيسان.
             مبنى المكتبة المركزية : مبنى المجدل.
@@ -33,43 +26,55 @@
 
         </template> 
 	</category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # 8000 #</pattern>
+        <template>
+            من بوابة الشباب : اول مبنى ع ايدك اليمين
+            من بوابة البنات : الطريق طويل يختي اسألي بعينك الله
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # ٨٠٠٠ #</pattern>
+        <template>
+            من بوابة الشباب : اول مبنى ع ايدك اليمين
+            من بوابة البنات : الطريق طويل يختي اسألي بعينك الله
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # KSA #</pattern>
+        <template>
+            من بوابة الشباب : آخر الشارع اللي ع ايدك اليمين
+            من بوابة البنات : بتفوتي من عند الملعب وبتضلك عدل
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # ٢٠٠٠ #</pattern>
+        <template>
+            من بوابة الشباب :بعيد يخوي بعينك الله اسال
+            من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # 2000 #</pattern>
+        <template>
+            من بوابة الشباب :بعيد يخوي بعينك الله اسأل
+            من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # ١٠٠٠ #</pattern>
+        <template>
+            من بوابة الشباب :بعيد يخوي بعينك الله اسال
+            من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك
+        </template>
+    </category>
+    <category>
+        <pattern># <set>questiontools</set> # <set>building</set> # 1000 #</pattern>
+        <template>
+            من بوابة الشباب :بعيد يخوي بعينك الله اسأل
+            من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك
+        </template>
+    </category>
 
-  <category>
-		<pattern> # <set>questiontools</set> # مقر # الحرم الجامعي # خانيونس#</pattern>
-		<template>
-            مبنى الإدارة : مبنى بيسان.
-            مبنى المكتبة المركزية : مبنى المجدل.
-            العيادة الطبية : مبنى أم الرشاش.
-            مبنى الناصرة. : مبنى حيفا.
-            مبنى القاسمي : مبنى عكا.
-            مبنى إسدود : مبنى المختبرات.
-            مبنى الصيانة العامة : مبنى بئر السبع.
-            مبنى صالة الأنشطة : مبنى طبريا.
-            كافتيريا طالبات : مبنى الرملة.
-            مبنى صالة الأقصى الرياضية المغلقة : ملعب.
-            مبنى صفد : مسجد الجامعة.
-            مبنى مركز المؤتمرات.
-
-        </template> 
-	</category>
-
-  <category>
-		<pattern> # <set>questiontools</set> # مقرات # الحرم الجامعي # خانيونس# </pattern>
-		<template>
-            مبنى الإدارة : مبنى بيسان.
-            مبنى المكتبة المركزية : مبنى المجدل.
-            العيادة الطبية : مبنى أم الرشاش.
-            مبنى الناصرة. : مبنى حيفا.
-            مبنى القاسمي : مبنى عكا.
-            مبنى إسدود : مبنى المختبرات.
-            مبنى الصيانة العامة : مبنى بئر السبع.
-            مبنى صالة الأنشطة : مبنى طبريا.
-            كافتيريا طالبات : مبنى الرملة.
-            مبنى صالة الأقصى الرياضية المغلقة : ملعب.
-            مبنى صفد : مسجد الجامعة.
-            مبنى مركز المؤتمرات.
-
-        </template> 
-	</category>
 
 </aiml>

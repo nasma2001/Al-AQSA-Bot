@@ -1,89 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <aiml version="2.0">
-
     <category>
-        <pattern> # <set> questiontools </set> # <set> scholarship </set> # الطالب وزوجته #</pattern>
+        <pattern> # <set>scholarship</set> # <set>marrige</set> # </pattern>
         <template>
-            يمنح الإعفاء لكليهما بقيمة 25% شريطة إحضار شهادة فاعلية بالزواج من كاتب العدل ويبدأ من الفصل الثاني ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من الاعفاء            
+            يمنح الإعفاء لكليهما بقيمة 25% شريطة إحضار شهادة فاعلية بالزواج من كاتب العدل ويبدأ من الفصل الثاني ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من الاعفاء
         </template>
     </category>
-
     <category>
-        <pattern> scholarship </pattern>
-        <template>
-          <condition name="type_of_scholarship">
-               <li value="الطالب وزوجته"><srai>studentAndHisWife</srai></li>
-               <li value="الشؤون"><srai>socialAffairs</srai></li>
-               <li value="المتفوقين في الثانوية العامة"><srai>excellentTawjihiStudents</srai></li>
-               <li value="المتفوقين"><srai>excellentTawjihiStudents</srai></li>
-               <li value="الأسرى المحررين"><srai>freePrisoners</srai></li>
-               <li value="الاسرى المحررين"><srai>freePrisoners</srai></li>
-               <li value="ابناء الاسرى"><srai>childrenOfPrisoners</srai></li>
-               <li value="أبناء الأسرى"><srai>childrenOfPrisoners</srai></li>
-               <li value="ابن الأسير"><srai>childrenOfPrisoners</srai></li>
-               <li value="اوائل القسم"><srai>excellentUniStudents</srai></li>
-               <li value="أوائل القسم"><srai>excellentUniStudents</srai></li>
-               <li value="أوائل الدفعة"><srai>excellentUniStudents</srai></li>
-               <li value="اوائل الدفعة"><srai>excellentUniStudents</srai></li>
-               <li value="اول الدفعة"><srai>excellentUniStudents</srai></li>
-               <li value="ابن العامل في مؤسسة حكومية"><srai>sonOfGovernmentEmployee</srai></li>
-               <li value="ابن موظف الحكومة"><srai>sonOfGovernmentEmployee</srai></li>
-               <li value="ابناء الموظفين"><srai>sonOfGovernmentEmployee</srai></li>
-               <li value="المرضى"><srai>patients</srai></li>
-               <li value="المريض"><srai>patients</srai></li>
-               <li value="للطلبة من الدول الأخرى"><srai>StudentsFromOtherCountries</srai></li>
-               <li value="الطلبة من الدول الاخرى"><srai>StudentsFromOtherCountries</srai></li>
-               <li value="الطلبه من الدول الاخرى"><srai>StudentsFromOtherCountries</srai></li>
-               <li value="أبناء العاملين في الجامعة"><srai>sonOfUniEmployee</srai></li>
-               <li value="ابناء العاملين في الجامعة"><srai>sonOfUniEmployee</srai></li>
-               <li value="ابناء موظفين الجامعة"><srai>sonOfUniEmployee</srai></li>
-               <li value="ذوي الاحتياجات الخاصة"><srai>disabledStudent</srai></li>
-               <li value="ذوي الاحتياجات الخاصه"><srai>disabledStudent</srai></li>
-               <li value="المعاقين"><srai>disabledStudent</srai></li>
-               <li value="ابناء العاملين في وزارة التربية والتعليم العالي"><srai>sonOfMinistryOfEducationEmployee</srai></li>
-               <li value="أبناء العاملين في وزارة التربية والتعليم العالي"><srai>sonOfMinistryOfEducationEmployee</srai></li>
-               <li value="ابن العامل في وزارة التربية والتعليم"><srai>sonOfMinistryOfEducationEmployee</srai></li>
-          </condition>
-        </template>
-    </category>
-
-    <category>
-        <pattern> socialAffairs </pattern>
+        <pattern> # <set>scholarship</set> # <set>socialaffairs</set> # </pattern>
         <template>
             يجب إحضار شهادة فاعلة بقرابة من الدرجة الأولى برقم مسجل من وزارة الشؤون الاجتماعية لتفعيل الاعفاء بقيمة 50% ، و يبدأ من الفصل الثاني
        </template>
     </category>
 
     <category>
-        <pattern> excellentTawjihiStudents </pattern>
+        <pattern> # <set>scholarship</set> # <set>exellenttawgihi</set> # </pattern>
         <template>
             إذا كان معدلك في الثانوية العامة 95% فما فوق يمكنك الاستفادة من هذا الاعفاء بداية من الفصل الأول ويبقى بنسبة 100% مع بقاء معدلك التراكمي 90% فما فوق ،  و 50% اذا كان معدلك التراكمي ما بين (85%-89.99%) و يجب إحضار نسخة عن شهادة الثانوية العامة ، صورة عن الهوية الشخصية و صورة عن  شهادة الميلاد
        </template>
     </category>
 
     <category>
-        <pattern> freePrisoners </pattern>
+        <pattern># <set>scholarship</set> # <set>freeprisoners</set> # </pattern>
         <template>
             يمكنك الاستفادة من اعفاء الأسرى والمحررين بنسبة 50%  بداية من الفصل الثاني و يجب احضار شهادة تثبت اعتقال الأسير وتحرره من هيئة شئون الاسرى والمحررين
        </template>
     </category>
 
     <category>
-        <pattern> childrenOfPrisoners </pattern>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
             يجب إحضار شهادة تثبت أن الأسير رهن الاعتقال الإسرائيلي من وزارة الأسرى ، واذا كنتي ابنة أسير يجب حضار ابنة الأسير شهادة عزوبية أيضاً . ويبدأ الاعفاء من الفصل الثاني ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء
        </template>
     </category>
 
     <category>
-        <pattern> excellentUniStudents </pattern>
+        <pattern># <set>scholarship</set> # <set>exellentuni</set> # <set>sections</set> # </pattern>
         <template>
             هناك اعفاء للأول على التخصص بنسبة 100% ، والثاني على التخصص بنسبة 50% بشرط أن لا يقل معدل الطالب الفصلي عن 80%، بعدد(12س.م) على الأقل ، ويمنح الإعفاء للفصل التالي لفصل التفوق
        </template>
     </category>
 
     <category>
-        <pattern> sonOfGovernmentEmployee </pattern>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # <set>government</set> # </pattern>
         <template>
             مقدار الاعفاء هو 100% ، ويبدأ من الفصل الأول ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء. و يجب إحضار شهادة فاعلة من وزارة التربية والتعليم العالي .
             إذا كنتِ ابنة موظف يجب احضار شهادة عزوبية .
@@ -93,15 +52,15 @@
     </category>
 
     <category>
-        <pattern> patients </pattern>
+        <pattern> # <set>scholarship</set> # <set>patients</set> # </pattern>
         <template>
-            إذا كنت مصاب بالثلاسيميا أو اللوكيميا فنعم ، مع تمنياتنا لك بالشفاء ويجب احضار شهادة صحية من وزارة الصحة. ويبدأ اعفاؤك من الفصل الأول بنسبة 100% 
+            إذا كنت مصاب بالثلاسيميا أو السرطان فنعم ، مع تمنياتنا لك بالشفاء ويجب احضار شهادة صحية من وزارة الصحة. ويبدأ اعفاؤك من الفصل الأول بنسبة 100%
             غير ذلك لا يوجد اعفاء ولكن يمكنك التقديم للشؤون الاجتماعية .
        </template>
     </category>
 
     <category>
-        <pattern> StudentsFromOtherCountries </pattern>
+        <pattern># <set>scholarship</set> # <set>student</set> # <set>countries</set></pattern>
         <template>
             يجب أن تكون من سوريا أو ليبيا أو اليمن لكي تستفيد من هذا الاعفاء بنسبة 100% يجب احضار:
             شهادة الميلاد ، شهادة الثانوية العامة ، أوراق ثبوتية تثبت أنك تم تهجيرك .
@@ -110,7 +69,23 @@
     </category>
 
     <category>
-        <pattern> sonOfUniEmployee </pattern>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # الجامعة # </pattern>
+        <template>
+            يجب احضار:
+            افادة من شئون الموظفين بالجامعة .
+            صورة هوية الموظف والطالب.
+       </template>
+    </category>
+    <category>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # جامعة # </pattern>
+        <template>
+            يجب احضار:
+            افادة من شئون الموظفين بالجامعة .
+            صورة هوية الموظف والطالب.
+       </template>
+    </category>
+    <category>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # الجامعه # </pattern>
         <template>
             يجب احضار:
             افادة من شئون الموظفين بالجامعة .
@@ -119,61 +94,67 @@
     </category>
 
     <category>
-        <pattern> disabledStudent </pattern>
+        <pattern># <set>scholarship</set> # <set>disabledstudent</set> # </pattern>
         <template>
             اعفاء بنسبة تتراوح ما بين 75% الى  100% ويجب احضار شهادة صحية من وزارة الصحة .
        </template>
     </category>
 
     <category>
-        <pattern> sonOfMinistryOfEducationEmployee </pattern>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # العالي # </pattern>
         <template>
             مقدار الاعفاء هو 50% ، ويبدأ من الفصل الأول و يجب احضار:
             شهادة فاعلة من وزارة التربية والتعليم العالي 
             اذا كنتِ أنثى  يجب احضار شهادة عزوبية
        </template>
     </category>
+    <category>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # عالي # </pattern>
+        <template>
+            مقدار الاعفاء هو 50% ، ويبدأ من الفصل الأول و يجب احضار:
+            شهادة فاعلة من وزارة التربية والتعليم العالي
+            اذا كنتِ أنثى  يجب احضار شهادة عزوبية
+       </template>
+    </category>
 
     <category>
-        <pattern># <set> questiontools </set> # <set>student</set>  # <set>getbenefits</set> # <set>subject</set> #
-                <set>scholarship</set> # <set>more</set></pattern>
+        <pattern> # <set>questiontools</set> # <set>student</set> # <set>getbenefits</set> # <set>more</set> #
+                <set>scholarship</set> # </pattern>
         <template>
             لا يمكن ذلك
        </template>
     </category>
 
     <category>
-        <pattern># <set> questiontools </set> # <set>subject</set> #<set>equivalencies</set># <set>scholarship</set> #</pattern>
+        <pattern> # <set>questiontools</set> # <set>subject</set> # <set>equivalencies</set> # <set>scholarship</set> # </pattern>
         <template>
             لا يمكن ذلك
        </template>
     </category>
 
     <category>
-        <pattern># <set> questiontools </set> # نسبه # <set>scholarship</set> # <set>sons</set>
-         # <set> scholarship </set> # <set>prisoners</set> # </pattern>
+        <pattern> # <set>questiontools</set> # نسبه # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
            100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
        </template>
     </category>
 
     <category>
-        <pattern># <set> questiontools </set> # نسبة # <set>scholarship</set> # <set>sons</set>
-         # <set> scholarship </set> # <set>prisoners</set> # </pattern>
+        <pattern># <set>questiontools</set> # نسبة # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
             100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
        </template>
     </category>
 
     <category>
-        <pattern># <set> questiontools </set> # <set> condition </set>  # <set> scholarship </set> </pattern>
+        <pattern># <set>questiontools</set> # <set>condition</set> # <set>scholarship</set> # </pattern>
         <template>
             يجب أن يكون مسجلاً ل 12 ساعة معتمدة على الأقل في الفصل الدراسي النظامي الخاضع للإعفاء.
        </template>
     </category>
 
     <category>
-        <pattern># <set> questiontools </set> # <set> requiredaverage </set> # <set>getbenefits</set> # <set> scholarship </set> </pattern>
+        <pattern># <set>questiontools</set> # <set>requiredaverage</set> # <set>getbenefits</set> # <set>scholarship</set> # </pattern>
         <template>
             يجب أن يكون معدلك التراكمي 70% فما فوق
        </template>
@@ -208,20 +189,20 @@
     </category>
 
     <category>
-        <pattern> <set> questiontools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
+        <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
         <template>
             يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
        </template>
     </category>
     <category>
-        <pattern> <set> questiontools </set> # <set> condition </set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
+        <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
         <template>
             يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
        </template>
     </category>
 
     <category>
-        <pattern> # <set>questiontools</set> # <set>registration</set> # </pattern>
+        <pattern> # <set>questiontools</set> # <set>registration</set> # <set>specialization</set> # </pattern>
         <template>
             إليك خطوات الالتحاق بالبرنامج المطلوب : 
             دفع ٢٠ دينار كرسوم للالتحاق 
