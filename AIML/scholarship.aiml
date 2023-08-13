@@ -251,11 +251,19 @@
     </category>
 
     <category>
+        <pattern># <set>questiontools</set> # <set>scholarship</set> # الصيفي # </pattern>
+        <template>
+            لا يمكن ذلك
+       </template>
+    </category>
+
+    <category>
         <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
         <template>
             يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
-       </template>
+        </template>
     </category>
+    
     <category>
         <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
         <template>
