@@ -30,7 +30,7 @@
 	  </category>
 
      <category>
-		 <pattern> # <set>howmuch</set> # <set>hours</set> #تربية الطفل#</pattern>
+		 <pattern> # <set>howmuch</set> # <set>hours</set> #<set>childraisingmajor</set>#</pattern>
 		 <template>
             ١٠ دينار
          </template>
