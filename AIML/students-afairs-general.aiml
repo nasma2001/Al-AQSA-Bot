@@ -2,8 +2,8 @@
 <aiml version="2.0">
 
     <category>
-		    <pattern> # <set>questiontools</set> # <set>getbenefits</set> # <set>installment</set> # </pattern>
-		    <template>
+		<pattern> # <set>questiontools</set> # <set>getbenefits</set> # <set>installment</set> # </pattern>
+		<template>
 				<ul>
 					<li>حالات خاصة من الطلبة الذين لم يستفيدوا من الإعفاءات أو البحث الاجتماعي</li>
 					<li>الطلبة الذين تجاوزوا العبء الدراسي (عدد ساعات الخطة الدراسية) بما لا يزيد عن 20%</li>
@@ -14,8 +14,8 @@
 	</category>
 
     <category>
-		    <pattern> # <set>questiontools</set> # <set>negationletters</set> # <set>pay</set> # <set>installment</set> # </pattern>
-		    <template>
+		<pattern> # <set>questiontools</set> # <set>negationletters</set> # <set>pay</set> # <set>installment</set> # </pattern>
+		<template>
             	يتم اغلاق الصفحة حتى يتم تسديد المبلغ وفي حال كان المبلغ بسيط فيجب تسديده بالكامل وفي حال كان المبلغ كبير يتم تسديد جزء منه قبل التسجيل للفصل الجديد
         </template>
 	</category>
@@ -31,11 +31,7 @@
 		    <pattern> # <set>questiontools</set> # <set>registration</set> #<set>socialsearch</set> #</pattern>
 		    <template>
 				<ul>
-					<li>يتم الإعلان للطلاب عن بدء التسجيل للبحث الاجتماعي من قبل عمادة شئون الطلبة من خلال
-						<ul>
-							<li>لوحة الإعلانات والموقع الإلكتروني الخاص بالجامعة</li>
-							<li>عبر الرسائل القصيرة</li>
-						</ul>
+					<li>يتم الإعلان للطلاب عن بدء التسجيل للبحث الاجتماعي من قبل عمادة شئون الطلبة من خلال:لوحة الإعلانات والموقع الإلكتروني الخاص بالجامعة،عبر الرسائل القصيرة)
 					</li>
 					<li>تعبئة استمارة البحث الاجتماعي علي الموقع الخاص بجامعة الأقصى على صفحة الطالب الالكترونية</li>
 					<li>إرفاق الأوراق الثبوتية الأصلية الكترونيا (ملف pdf) على صفحته الالكترونية</li>
@@ -77,6 +73,8 @@
 		    <pattern> # <set>questiontools</set> # <set>pay</set> # <set>socialsearch</set> # </pattern>
 		    <template>
             	عند التخرج يجب تسديد كامل الرسوم للحصول على الشهادة
+				<delay>1</delay>
+				<split/>
 				في حال لم تستطيع تسديد الرسوم فيحصل الطالب على ورقة الافادة
       	    </template>
 	</category>
