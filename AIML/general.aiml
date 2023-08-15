@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>ما بعرف والله، بامكانك ترجع تسأل القسم المختص بهاد الموضوع</template>
+  </category>
+  <category>
+    <pattern># نكتة #</pattern>
+    <template>سولف بعيد :) </template>
+  </category>
+
+</aiml>
