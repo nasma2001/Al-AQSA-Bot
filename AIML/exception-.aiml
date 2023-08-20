@@ -2,59 +2,54 @@
 <aiml version="2.0">
     
 	<category>
-		<pattern> # <set>questiontools</set> #<set>registration</set> # <set>exemption</set> # <set>subject</set> #</pattern>
+		<pattern> # <set>registration</set> # <set>exemption</set> # <set>subject</set> #</pattern>
 		<template>
-            يتم تسجيل الاستثناء من خلال رئيس القسم المسؤول عن المساق
+            بتسجل الاستثناء من خلال رئيس القسم المسؤول عن المساق
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>condition</set> #<set>registration</set> # <set>exemption</set> # <set>subject</set> # </pattern>
+		<pattern> # <set>condition</set> #<set>registration</set> # <set>exemption</set> # <set>subject</set> # </pattern>
 		<template>
-            يجب ان يكون الطالب رسب في المتطلب السابق او قام بسحب مساق المتطلب السابق
+            لازم تكون رسبت في المتطلب السابق بعيد الشر عنك، أو سحبت مساق المتطلب السابق
         </template> 
 	</category>
 
+
     <category>
-		<pattern> # <set>questiontools</set> # <set>sections</set> # <set>exemption</set> # </pattern>
+		<pattern> # <set>sections</set> # <set>exemption</set> # </pattern>
 		<template>
             تسجيل تعارض
-            استثناء متطلب سابق  
+            <split/><delay>1</delay>
+            استثناء متطلب سابق
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>registration</set>#<set>shoba</set># <set>capacity</set>#مكتمل#</pattern>
+		<pattern> # <set>registration</set> # <set>shoba</set> # <set>capacity</set># مكتمل #</pattern>
 		<template>
-            الاستيعاب المكتمل من صلاحيات القبول والتسجيل والشؤون الاكاديمية
-        </template> 
+            راجع القبول والتسجيل بالله
+        </template>
 	</category>
 
     <category>
 		<pattern> # <set>questiontools</set> # <set>officehours</set> # </pattern>
 		<template>
-            هي مساقات لم ينجزها الطالب الخريج وغير مطروحة ضمن مساقات الفصل الحالي
+            هي مساقات ما أنجزها الخريج ومش موجودة ضمن مساقات الفصل الحالي
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>condition</set> #<set>registration</set> # <set>officehours</set> # </pattern>
+		<pattern># <set>condition</set> #<set>registration</set> # <set>officehours</set> # </pattern>
 		<template>
-            يجب ان يكون الطالب خريج في الفصل الحالي ورسب في المساق سابقا 
+            لازم تكون خريج في الفصل الحالي ورسبت في المساق قبل، بعيد الشر عنك
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>condition</set> # <set>registration</set> # <set>officehours</set> # </pattern>
+		<pattern> # <set>more</set> # <set>officehours</set> # </pattern>
 		<template>
-            يجب ان يكون الطالب خريج في الفصل الحالي ورسب في المساق سابقا 
-        </template> 
-	</category>
-
-    <category>
-		<pattern> # <set>questiontools</set> # <set>more</set> # <set>officehours</set> # </pattern>
-		<template>
-            6ساعات 
+             6 ساعات
         </template> 
 	</category>
 
@@ -72,8 +67,10 @@
                 <li>يقوم الطالب بتقديم طلب خلال فترة معينة قبل بدء الفصل الدراسي</li>
                 <li>يتم قبول الطلب من رئيس القسم</li>
                 <li>يتوجه الطالب الى القبول والتسجيل لاستكمال الاجراءات</li>
-            </ul><split/>
-            اأما بالنسبة للتحويل من الجامعات الأخرى يتم من خلال التسجيل كطالب جديد في حال توفرت شروط القبول في الثانوية العامة و بشرط ان يكون الطالب قد انجز على الأقل 24 ساعة في جامعته
+            </ul>
+            أما بالنسبة للتحويل من الجامعات الأخرى يتم من خلال التسجيل كطالب جديد في حال توفرت شروط القبول في الثانوية العامة
+            <split/><delay>1</delay>
+            بشرط ان يكون الطالب قد انجز على الأقل 24 ساعة في جامعته
         </template> 
 	</category>
 
@@ -88,37 +85,39 @@
 		<pattern> # <set>questiontools</set> # <set>revisionrequest</set> # </pattern>
 		<template>
             من خلال صفحة الطالب
+            <delay>1</delay>
             <ul>
                 <li>يتم اختيار المساق و تقديم طلب مراجعة</li>
                 <li>من خلال الصفحة تظهر حالة الطلب وحالة الاعتماد</li>
             </ul>
             ولا يحق للطالب أن يرى ورقة الاختبار النهائي عند طلب المراجعة
+            <split/><delay>1</delay>
             وفي حال تم رفض الطلب يمكن أن يقوم الطالب بتقديم طلب مراجعة مرة أخرى والتواصل مع رئيس القسم , ويتم تشكيل لجنة لمراجعة درجة الطالب
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>registration</set> # تعارض # <set>subject</set> # </pattern>
+		<pattern># <set>registration</set> # تعارض # <set>subject</set> # </pattern>
 		<template>
             يمكن تسجيل مساق متعارض مع مساق من خلال رئيس القسم و غالبا ما يشترط ان يكون الطالب خريج
         </template> 
 	</category>
     <category>
-		<pattern> # <set>questiontools</set> # <set>registration</set> # التعارض # <set>subject</set> # </pattern>
+		<pattern> # <set>registration</set> # التعارض # <set>subject</set> # </pattern>
 		<template>
             يمكن تسجيل مساق متعارض مع مساق من خلال رئيس القسم و غالبا ما يشترط ان يكون الطالب خريج
         </template>
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>registration</set> # للتعارض # <set>subject</set> # </pattern>
+		<pattern> # <set>registration</set> # للتعارض # <set>subject</set> # </pattern>
 		<template>
             يمكن تسجيل مساق متعارض مع مساق من خلال رئيس القسم و غالبا ما يشترط ان يكون الطالب خريج
         </template> 
 	</category>
 
     <category>
-		<pattern> # <set>questiontools</set> # <set>registration</set> # متعارض # <set>subject</set> # </pattern>
+		<pattern> # <set>registration</set> # متعارض # <set>subject</set> # </pattern>
 		<template>
             يمكن تسجيل مساق متعارض مع مساق من خلال رئيس القسم و غالبا ما يشترط ان يكون الطالب خريج
         </template> 

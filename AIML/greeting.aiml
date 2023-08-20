@@ -3,11 +3,11 @@
 	<category>
 		<pattern> #<set>greeting</set># </pattern>
 		<template>
-            أهلاً بك أنا الأقصى بوت<delay>1</delay>
-            هذه قائمة بأسماء المواضيع التي يمكن أن نفيدك بها<delay>1</delay>
+            يا هلا، أنا الأقصى بوت<delay>1</delay><split/>
+            بقدر أفيدك بهاي المواضيع<delay>1</delay>
             <ul>
                 <li>الإعفاءات والمنح</li>
-                <li>مفتاح قبول (المعدل المطلوب) التخصصات المختلفة</li>
+                <li>مفتاح قبول (المعدل المطلوب) للتخصصات المختلفة</li>
                 <li>سعر ساعة التخصصات المختلفة</li>
                 <li>البحث الاجتماعي والتقسيط</li>
                 <li>برامج الدبلوم والماستر والدكتوراه</li>
@@ -80,11 +80,11 @@
 	</category>
     
     <category>
-		<pattern> #<set>farewell</set># </pattern>
+		<pattern> # <set>farewell</set> # </pattern>
         <template>
             <random>
                 <li>باي ^ـ^</li>
-                <li>إلى اللقاء</li>
+                <li>مع السلامة</li>
                 <li>أراك لاحقا</li>
                 <li>وداعًا</li>
                 <li>الله يسهل عليك ^ـ^</li>

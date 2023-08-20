@@ -4,85 +4,98 @@
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> # <set>itcommunicationsdiploma</set> #</pattern>
 		<template>
-            ١٢ دينار
+            سعر ساعة تكنولوجيا المعلومات والاتصالات هو 12 دينار
         </template> 
 	  </category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>multimediadiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة الملتيميديا 13 دينار
         </template> 
 	  </category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>informationsecuritydiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة أمن المعلومات 13 دينار
         </template> 
 	  </category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>mobileappprogrammingdiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة برمجة تطبيقات الهواتف الذكية 13 دينار
         </template> 
 	  </category>
 
      <category>
 		 <pattern> # <set>howmuch</set> # <set>hours</set> #<set>childraisingmajor</set>#</pattern>
 		 <template>
-            ١٠ دينار
+			سعر ساعة تربية الطفل 10 دنانير
          </template>
 	 </category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>relationsdiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة العلاقات العامة والاعلام هو 13 دينار
         </template> 
 	</category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>electronicpressdiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة الصحافة الإلكترونية 13 دينار
         </template> 
 	</category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>Internationalsecretariatdiploma</set> #</pattern>
 		<template>
-            ١٠ دينار
+			سعر ساعة السكرتارية الدولية 10 دينار
         </template> 
 	</category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>financediploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة العلوم المالية والمصرفية 13 دينار
         </template> 
 	</category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>occupationaltherapydiploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة العلاج الوظيفي 13 دينار
         </template> 
 	</category>
 
     <category>
 		<pattern> # <set>howmuch</set> # <set>hours</set> #<set>pesciencediploma</set> #</pattern>
 		<template>
-            ١٣ دينار
+			سعر ساعة علوم التربية البدنية 13 دينار
         </template> 
 	  </category>
     <category>
 		<pattern> # <set>questiontools</set> # <set>diplomaprograms</set> #</pattern>
 		<template>
-		        تكنولوجيا المعلومات والاتصالات ، الوسائط المتعددة ، امن المعلومات ، برمجة تطبيقات الهواتف الذكية
-                  إدارة الأعمال ، تربية الطفل ، الصحافة الإلكترونية ، العلاقات العامة والإعلام ، السكرتارية الدولية
-العلوم المالية والمصرفية ، العلاج الوظيفي ، علوم التربية البدنية
+			<ul>
+				<li>تكنولوجيا المعلومات والاتصالات</li>
+				<li>الوسائط المتعددة</li>
+				<li>امن المعلومات</li>
+				<li>برمجة تطبيقات الهواتف الذكية</li>
+				<li>إدارة الأعمال</li>
+				<li>تربية الطفل</li>
+				<li>الصحافة الإلكترونية</li>
+				<li>العلاقات العامة والإعلام</li>
+				<li>السكرتارية الدولية</li>
+				<li>العلوم المالية والمصرفية</li>
+				<li>العلاج الوظيفي</li>
+				<li>علوم التربية البدنية</li>
+				<li>إدارة المنظمات الغير حكومية</li>
+				<li> إدارة السياحة والفنادق</li>
+			</ul>
 		</template>
 	</category>
 

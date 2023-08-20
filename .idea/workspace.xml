@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="adding general.aiml">
+    <list default="true" id="13bd33f7-c5c7-4116-881b-ee6aeba76cfe" name="Changes" comment="some responses edited">
+      <change afterPath="$PROJECT_DIR$/Sets/contract.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/determination.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/holyquran.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/martyrs.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/study.set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sets/uni.set" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/campus.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/campus.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/exception-.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/exception-.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/greeting.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/greeting.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/hour-price.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/hour-price.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/master.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/master.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/prof_number.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/prof_number.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/required-average-and-conditions.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/scholarship.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/scholarship.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/students-afairs-general.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/students-afairs-general.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/study-plan-ai.aiml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIML/university-members.aiml" beforeDir="false" afterPath="$PROJECT_DIR$/AIML/university-members.aiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/marrige.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/marrige.set" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sets/specialization.set" beforeDir="false" afterPath="$PROJECT_DIR$/Sets/specialization.set" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -51,7 +65,8 @@
       <workItem from="1691884238502" duration="11614000" />
       <workItem from="1691983512268" duration="4102000" />
       <workItem from="1692038526441" duration="1972000" />
-      <workItem from="1692065708397" duration="3050000" />
+      <workItem from="1692065708397" duration="4902000" />
+      <workItem from="1692363662149" duration="19627000" />
     </task>
     <task id="LOCAL-00001" summary="change .txt to .set and change its form , delete some maps folder , make some changes in aimls">
       <created>1691705632673</created>
@@ -130,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692065730570</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="some responses edited">
+      <created>1692143891465</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692143891465</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +178,7 @@
     <MESSAGE value="first testing responses" />
     <MESSAGE value="adding some tags , edit some sets , adit aiml files , check responses" />
     <MESSAGE value="adding general.aiml" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding general.aiml" />
+    <MESSAGE value="some responses edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="some responses edited" />
   </component>
 </project>

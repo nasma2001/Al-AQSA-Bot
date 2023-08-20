@@ -2,21 +2,40 @@
 <aiml version="2.0">
     
 	<category>
-		<pattern> # <set>questiontools</set> # <set>availableprograms</set> #<set>master</set>#</pattern>
+		<pattern> # <set>availableprograms</set> #<set>master</set>#</pattern>
 		<template>
-               اليك قائمة ببرامج الماجستير : الإرشاد النفسي ، الكيمياء ، اللغة العربية وادابها ، المناهج وطرق التدريس ، الدراسات التاريخية المعاصرة ، القانون والادارة العامة ، القيادة والادارة ، الدبلوماسية والعلاقات الدولية ، ادارة الدولة والحكم الخشية ، الانظمة السيبر مادية ، المحاسبة والتحكيم المالي ، التربية الرياضية ، العلوم الطبية المخبرية ، الرياضيات ، تكنولوجيا التعليم ، الاعلام وعلوم الاتصال
-        </template> 
+			إليك قائمة ببرامج الماجستير
+			<delay>1</delay>
+			<ul>
+				<li>الإعلام وعلوم الاتصال</li>
+				<li>تكنولوجيا التعليم</li>
+				<li>الرياضيات</li>
+				<li>العلوم الطبية المخبرية</li>
+				<li>التربية الرياضية</li>
+				<li>المحاسبة والتحكيم المالي</li>
+				<li>الانظمة السيبر مادية</li>
+				<li>ادارة الدولة والحكم الرشيد</li>
+				<li>الدبلوماسية والعلاقات الدولية</li>
+				<li>القيادة والادارة</li>
+				<li>القانون والادارة العامة</li>
+				<li>الدراسات التاريخية المعاصرة</li>
+				<li>المناهج وطرق التدريس</li>
+				<li>اللغة العربية وادابها</li>
+				<li>الكيمياء</li>
+				<li>الإرشاد النفسي</li>
+			</ul>
+        </template>
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set> # <set>availableprograms</set> #<set>phd</set>#</pattern>
+		<pattern> # <set>availableprograms</set> #<set>phd</set>#</pattern>
 		<template>
                الارشاد النفسي والتربوي ، الادارة التربوية
         </template> 
 	</category>
 
 	<category>
-		<pattern> # <set>questiontools</set> # <set>registration</set> #<set>master</set>#</pattern>
+		<pattern> # <set>registration</set> #<set>master</set>#</pattern>
 		<template>
 			<ul>
 				<li>البحث والاختيار: ابحث عن البرنامج الماجستير الذي ترغب في دراسته وتحقق من الشروط المطلوبة.</li>
@@ -31,7 +50,7 @@
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # <set>papers</set> # <set>registration</set> #<set>master</set>#</pattern>
+		<pattern> # <set>papers</set> # <set>registration</set> #<set>master</set>#</pattern>
 		<template>
 			<ul>
 				<li>درجة بكالوريوس: يجب أن تكون لديك درجة بكاليروس في تخصص ذي صلة بالبرنامج الذي ترغب في التسجيل به.</li>
@@ -46,28 +65,28 @@
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # <set>timeperiod</set> #<set>master</set>#</pattern>
+		<pattern> # <set>timeperiod</set> #<set>master</set>#</pattern>
+		<template>
+  			6 ساعات رسالة، 30 ساعة دراسية
+		</template>
+	</category>
+
+	<category>
+		<pattern> # <set>hours</set> #<set>master</set>#</pattern>
 		<template>
   			6 ساعات رسالة ، 30 ساعة دراسية
 		</template>
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # <set>hours</set> #<set>master</set>#</pattern>
-		<template>
-  			6 ساعات رسالة ، 30 ساعة دراسية
-		</template>
-	</category>
-
-	<category>
-		<pattern># <set>questiontools</set> # <set>exams</set> # <set>registration</set> # <set>master</set>#</pattern>
+		<pattern> # <set>exams</set> # <set>registration</set> # <set>master</set>#</pattern>
 		<template>
 			صحيح
 		</template>
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # نظام تدريس # <set>master</set>#</pattern>
+		<pattern> # نظام تدريس # <set>master</set>#</pattern>
 		<template>
 			<ul>
 				<li>المحاضرات النظرية: حيث يتم تقديم المعلومات الأكاديمية والنظرية للطلاب في مجموعة متنوعة من المواضيع والمقررات.</li>
@@ -79,7 +98,7 @@
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # نظام التدريس # <set>master</set>#</pattern>
+		<pattern> # نظام التدريس # <set>master</set>#</pattern>
 		<template>
 			<ul>
 				<li>المحاضرات النظرية: حيث يتم تقديم المعلومات الأكاديمية والنظرية للطلاب في مجموعة متنوعة من المواضيع والمقررات.</li>
@@ -91,20 +110,26 @@
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # <set>scholarship</set> # <set>master</set>#</pattern>
+		<pattern> # <set>scholarship</set> # <set>master</set>#</pattern>
 		<template>
 			لا يوجد منح خاصة ببرنامج الماجستير. مع الأسف
 		</template>
 	</category>
 
 	<category>
-		<pattern># <set>questiontools</set> # تدريب # <set>student</set> # <set>master</set>#</pattern>
+		<pattern> # تدريب # <set>student</set> # <set>master</set>#</pattern>
 		<template>
-			نعم يوجد تدريب عملي، كل تخصص على حده
+			نعم يوجد تدريب عملي، كل تخصص على حدى
 		</template>
 	</category>
 	<category>
-		<pattern># <set>questiontools</set> #<set>work</set> # </pattern>
+		<pattern> # <set>work</set> # <set>study</set> #</pattern>
+		<template>
+			نعم يمكنك العمل بجانب دراستك.
+		</template>
+	</category>
+	<category>
+		<pattern> # <set>study</set> # <set>work</set> # </pattern>
 		<template>
 			نعم يمكنك العمل بجانب دراستك.
 		</template>

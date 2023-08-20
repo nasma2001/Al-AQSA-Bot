@@ -3,172 +3,470 @@
     <category>
         <pattern># <set>scholarship</set> #</pattern>
         <template>
-            بامكانك الاطلاع على الرابط التالي :
+            بامكانك الاطلاع على الرابط التالي
             <link>
                 <text>المنح والاعفاءات</text>
                 <url>https://alaqsa.edu.ps/ar/page/2966/جامعة-الأقصى-عمادة-شئون-الطلبة-الإعفاءات</url>
             </link>
         </template>
     </category>
+    <!--=============================================================================================================-->
     <category>
         <pattern> # <set>scholarship</set> # <set>marrige</set> # </pattern>
         <template>
-            يمنح الإعفاء لكليهما بقيمة 25% شريطة إحضار
-            <ul>
-                 <li>شهادة فاعلية بالزواج من كاتب العدل</li>
-            </ul>
-             ويبدأ من الفصل الثاني ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من الإعفاء
+            يمنح الإعفاء للزوج وزوجته بقيمة 25%
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة فاعلية بالزواج من كاتب العدل
+            <split/><delay>1</delay>
+            اعمل حسابك،اذا قل معدلك التراكمي عن 70%، طار الإعفاء
         </template>
     </category>
+
+    <category>
+        <pattern> # <set>marrige</set> # <set>scholarship</set> #</pattern>
+        <template>
+            يمنح الإعفاء للزوج وزوجته بقيمة 25%
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة فاعلية بالزواج من كاتب العدل
+            <split/><delay>1</delay>
+            اعمل حسابك،اذا قل معدلك التراكمي عن 70%، طار الإعفاء
+        </template>
+    </category>
+
+    <!--=============================================================================================================-->
+    <category>
+        <pattern> # <set>scholarship</set> # <set>physics</set> # </pattern>
+        <template>الك منحة كاملة، بشرط علامة الفيزياء في توجيهي أعلى من 70% </template>
+    </category>
+    <category>
+        <pattern> # <set>physics</set> # <set>scholarship</set> #</pattern>
+        <template>الك منحة كاملة، بشرط علامة الفيزياء في توجيهي أعلى من 70% </template>
+    </category>
+
+    <category>
+        <pattern> # <set>scholarship</set> # <set>biology</set> # </pattern>
+        <template>الك منحة كاملة، بشرط علامة الأحياء في توجيهي أعلى من 70% </template>
+    </category>
+    <category>
+        <pattern> # <set>biology</set> # <set>scholarship</set> # </pattern>
+        <template>الك منحة كاملة، بشرط علامة الأحياء في توجيهي أعلى من 70% </template>
+    </category>
+
+    <category>
+        <pattern> # <set>scholarship</set> # <set>chemistry</set> # </pattern>
+        <template>الك منحة كاملة، بشرط علامة الكيمياء في توجيهي أعلى من 70% </template>
+    </category>
+    <category>
+        <pattern> # <set>chemistry</set> # <set>scholarship</set> # </pattern>
+        <template>الك منحة كاملة، بشرط علامة الكيمياء في توجيهي أعلى من 70% </template>
+    </category>
+
+    <category>
+        <pattern> # <set>scholarship</set> # <set>history</set> # </pattern>
+        <template>الك منحة كاملة، إنت بس ادرس </template>
+    </category>
+    <category>
+        <pattern> # <set>history</set> # <set>scholarship</set> #</pattern>
+        <template>الك منحة كاملة، إنت بس ادرس </template>
+    </category>
+
+    <category>
+        <pattern> # <set>scholarship</set> # <set>geographic</set> # </pattern>
+        <template>الك منحة كاملة، إنت بس ادرس </template>
+    </category>
+    <category>
+        <pattern> # <set>geographic</set> # <set>scholarship</set> # </pattern>
+        <template>الك منحة كاملة، إنت بس ادرس </template>
+    </category>
+
+    <category>
+        <pattern> # <set>scholarship</set> # <set>specialization</set> # </pattern>
+        <template>
+            يوجد منح للتخصصات التالية فقط
+            <ul>
+                <li>الفيزياء:إذا كانت علامتك في الفيزياء أعلى من 70%</li>
+                <li>الكيمياء:إذا كانت علامتك في الكيمياء أعلى من 70%</li>
+                <li>الأحياء:إذا كانت علامتك في الأحياء أعلى من 70%</li>
+                <li>التاريخ</li>
+                <li>الجغرافيا</li>
+            </ul>
+        </template>
+    </category>
+
+    <!--=============================================================================================================-->
     <category>
         <pattern> # <set>scholarship</set> # <set>socialaffairs</set> # </pattern>
         <template>
-            يجب إحضار
-            <ul>
-                 <li>شهادة فاعلة بقرابة من الدرجة الأولى برقم مسجل من وزارة الشؤون الاجتماعية</li>
-            </ul>
-             لتفعيل الإعفاء بقيمة 50%، و يبدأ من الفصل الثاني
+            اسمع/ي، بخصوص منحة الشؤون لازم تراجع شؤون الطلبة، بدون ما تاخد أي أوراق
+            <split/>
+            أنت بس روح وهما هيقولولك اذا هتاخد منحة شؤون أو لا
        </template>
     </category>
 
     <category>
-        <pattern> # <set>scholarship</set> # <set>exellenttawgihi</set> # </pattern>
+        <pattern> # <set>socialaffairs</set> # <set>scholarship</set> #  </pattern>
         <template>
-            إذا كان معدلك في الثانوية العامة 95% فما فوق يمكنك الاستفادة من هذا الإعفاء
-            <ul>
-                 <li>بداية من الفصل الأول</li>
-                 <li>يبقى بنسبة 100% مع بقاء معدلك التراكمي 90% فما فوق</li>
-                 <li>50% اذا كان معدلك التراكمي ما بين (85%-89.99%)</li>
-                و يجب إحضار
+            اسمع/ي، بخصوص منحة الشؤون لازم تراجع شؤون الطلبة، بدون ما تاخد أي أوراق
+            <split/>
+            أنت بس روح وهما هيقولولك اذا هتاخد منحة شؤون أو لا
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern> # <set>scholarship</set> # <set>exellenttawgihi</set> # </pattern>
+        <template>شهادتك التوجيهي الها اكثر من ثلاث سنوات؟
+        <reply>
+            <text>نعم</text>
+            <postback>نعم اكثر من ثلاث سنوات</postback>
+        </reply>
+        <reply>
+            <text>لا</text>
+            <postback>لا اقل من ثلاث سنوات</postback>
+        </reply>
+        </template>
+    </category>
 
-                 <li>نسخة عن شهادة الثانوية العامة</li>
-                 <li>صورة عن الهوية الشخصية</li>
-                 <li>صورة عن شهادة الميلاد</li>
-            </ul>
+    <category>
+        <pattern>لا اقل من ثلاث سنوات</pattern>
+        <template>
+            هل معدلك فوق ال 90%
+            <reply>
+                <text>نعم</text>
+                <postback>نعم اكثر من 90</postback>
+            </reply>
+            <reply>
+                <text>لا</text>
+                <postback>لا اقل من 90</postback>
+            </reply>
        </template>
     </category>
 
+    <category>
+        <pattern>نعم اكثر من 90</pattern>
+        <template>
+            اذا كان معدلك 95% و فوق، فأنت حد جدًا كفو، الك منحة كاملة بتبدا من الفصل الأول
+            <split/><delay>1</delay>
+            اذا كان معدلك 90% و فوق فانت كفو، الك نص منحة بتبدا من الفصل الأول
+            <split/><delay>1</delay>
+            اعمل حسابك،اذا قل معدلك التراكمي عن 90%، طار الإعفاء
+        </template>
+    </category>
+
+    <category>
+        <pattern>لا اقل من 90</pattern>
+        <template>
+            ييييي لهله راحت عليك ، ابقى شد حالك وجيب الأول ع دفعتك عشان تاخد منحة
+        </template>
+    </category>
+
+    <category>
+        <pattern>نعم اكثر من ثلاث سنوات</pattern>
+        <template>
+            ييييي لهله راحت عليك ، ابقى شد حالك وجيب الأول ع دفعتك عشان تاخد منحة
+       </template>
+    </category>
+
+    <category>
+        <pattern> # <set>exellenttawgihi</set> # <set>scholarship</set> #</pattern>
+        <template>
+            هل مضى على شهادة الثانوية العامة خاصتك اكثر من ثلاث سنوات؟
+        <reply>
+            <text>نعم</text>
+            <postback>نعم اكثر من ثلاث سنوات</postback>
+        </reply>
+        <reply>
+            <text>لا</text>
+            <postback>لا اقل من ثلاث سنوات</postback>
+        </reply>
+        </template>
+    </category>
+
+    <category>
+        <pattern># <set>scholarship</set> # <set>papers</set> # <set>exellenttawgihi</set> #</pattern>
+        <template>
+            لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>نسخة عن شهادة الثانوية العامة</li>
+                <li>صورة عن الهوية الشخصية</li>
+                <li>صورة عن شهادة الميلاد</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern># <set>papers</set> #  <set>scholarship</set> # <set>exellenttawgihi</set> #</pattern>
+        <template>
+            لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>نسخة عن شهادة الثانوية العامة</li>
+                <li>صورة عن الهوية الشخصية</li>
+                <li>صورة عن شهادة الميلاد</li>
+            </ul>
+        </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>martyrs</set> #</pattern>
+        <template>
+            الك اعفاء كامل سواء كنت نظامي أو موازي، ببدا من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>إحضار شهادة إعفاء جامعي من مؤسسه رعاية أسر الشهداء</li>
+                <li>إحضار ابنة الشهيد شهادة عزوبية ، وأن تكون زوجة الشهيد أرملة</li>
+            </ul>
+        </template>
+    </category>
+
+    <category>
+        <pattern># <set>sons</set> # <set>martyrs</set> # <set>scholarship</set> #</pattern>
+        <template>
+            الك اعفاء كامل سواء كنت نظامي أو موازي، ببدا من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>إحضار شهادة إعفاء جامعي من مؤسسه رعاية أسر الشهداء</li>
+                <li>إحضار ابنة الشهيد شهادة عزوبية ، وأن تكون زوجة الشهيد أرملة</li>
+            </ul>
+        </template>
+    </category>
+    <!--=============================================================================================================-->
     <category>
         <pattern># <set>scholarship</set> # <set>freeprisoners</set> # </pattern>
         <template>
-            يمكنك الاستفادة من إعفاء الأسرى والمحررين بنسبة 50% بداية من الفصل الثاني و يجب إحضار
-            <ul>
-                 <li>شهادة تثبت اعتقال الأسير وتحرره من هيئة شئون الاسرى والمحررين</li>
-            </ul>
-       </template>
+            الك اعفاء بنسبة 50% ببدا من الفصل الثاني
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة تثبت اعتقال الأسير وتحرره من هيئة شئون الاسرى والمحررين
+        </template>
     </category>
 
     <category>
+        <pattern># <set>freeprisoners</set> # <set>scholarship</set> # </pattern>
+        <template>
+            الك اعفاء بنسبة 50% ببدا من الفصل الثاني
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة تثبت اعتقال الأسير وتحرره من هيئة شئون الاسرى والمحررين
+        </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern># <set>scholarship</set> # <set>holyquran</set> # </pattern>
+        <template>
+            ما شاء الله، الله يثبتك
+            <split/><delay>1</delay>
+            الجامعة كل فصل بتنزل ميعاد لاختبار شفوي في القرآن الكريم ، بتروح بتقدم وهما رح يحددو كم نسبة المنحة حسب علامتك
+            <split/><delay>1</delay>
+            طبعًا المنحة لفصل واحد، يعني كل فصل هتروح تختبر
+        </template>
+    </category>
+
+    <category>
+        <pattern># <set>holyquran</set> # <set>scholarship</set> # </pattern>
+        <template>
+            ما شاء الله، الله يثبتك
+            <split/><delay>1</delay>
+            الجامعة كل فصل بتنزل ميعاد لاختبار شفوي في القرآن الكريم ، بتروح بتقدم وهما رح يحددو كم نسبة المنحة حسب علامتك
+            <split/><delay>1</delay>
+            طبعًا المنحة لفصل واحد، يعني كل فصل هتروح تختبر
+        </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
         <pattern># <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
-            يجب إحضار
+            الك إعفاء كامل، ببدا من الفصل الثاني، بس لازم تجيب
+            <delay>1</delay>
             <ul>
                  <li>شهادة تثبت أن الأسير رهن الاعتقال الإسرائيلي من وزارة الأسرى</li>
                  <li>اذا كنتي ابنة أسير يجب إحضار ابنة الأسير شهادة عزوبية</li>
             </ul>
-            ويبدأ الاعفاء من الفصل الثاني ، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الاعفاء
+            <delay>1</delay>
+            اعمل حسابك،اذا قل معدلك التراكمي عن 70%، طار الإعفاء
        </template>
     </category>
 
     <category>
-        <pattern># <set>scholarship</set> # <set>exellentuni</set> # <set>sections</set> # </pattern>
+        <pattern># <set>sons</set> # <set>prisoners</set> # <set>scholarship</set> #</pattern>
         <template>
-            هناك اعفاء للأول على التخصص بنسبة 100% ، والثاني على التخصص بنسبة 50% بشرط أن لا يقل معدل الطالب الفصلي عن 80%، بعدد(12س.م) على الأقل ، ويمنح الإعفاء للفصل التالي لفصل التفوق
+            الك إعفاء كامل، ببدا من الفصل الثاني، بس لازم تجيب
+            <delay>1</delay>
+            <ul>
+                 <li>شهادة تثبت أن الأسير رهن الاعتقال الإسرائيلي من وزارة الأسرى</li>
+                 <li>اذا كنتي ابنة أسير يجب إحضار ابنة الأسير شهادة عزوبية</li>
+            </ul>
+            <delay>1</delay>
+            اعمل حسابك،اذا قل معدلك التراكمي عن 70%، طار الإعفاء
        </template>
     </category>
-
+    <!--=============================================================================================================-->
+    <category>
+        <pattern># <set>scholarship</set> # <set>exellentuni</set> # <set>sections</set> # </pattern>
+        <template>هل أنت الأول على القسم ولا الثاني
+            <reply>
+                <text>الأول</text>
+                <postback>أول القسم</postback>
+            </reply>
+            <reply>
+                <text>الثاني</text>
+                <postback>ثاني القسم</postback>
+            </reply>
+            <reply>
+                <text>غيرو</text>
+                <postback>مش أول ولا ثاني القسم</postback>
+            </reply>
+       </template>
+    </category>
+    <category>
+        <pattern>أول القسم</pattern>
+        <template>مبروك يا عبقري ، الك منحة كاملة للفصل الجاي، بس لازم تنزل أقل اشي 12 ساعة</template>
+    </category>
+    <category>
+        <pattern>ثاني القسم</pattern>
+        <template>مبروك يا نيرد ، الك نص منحة للفصل الجاي، بس لازم تنزل أقل اشي 12 ساعة</template>
+    </category>
+    <category>
+        <pattern>مش أول ولا ثاني القسم</pattern>
+        <template>مع الأسف فش الك منح، ابقى شد حالك</template>
+    </category>
+    <category>
+        <pattern># <set>exellentuni</set> # <set>sections</set> # <set>scholarship</set> #</pattern>
+        <template>هل أنت الأول على القسم ولا الثاني
+            <reply>
+                <text>الأول</text>
+                <postback>أول القسم</postback>
+            </reply>
+            <reply>
+                <text>الثاني</text>
+                <postback>ثاني القسم</postback>
+            </reply>
+            <reply>
+                <text>غيرو</text>
+                <postback>مش أول ولا ثاني القسم</postback>
+            </reply>
+       </template>
+    </category>
+    <!--=============================================================================================================-->
     <category>
         <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # <set>government</set> # </pattern>
         <template>
-            يجب إحضار
+            الك إعفاء كامل، بس لازم تجيب
+            <delay>2</delay>
             <ul>
                  <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
                  <li>إذا كنتِ ابنة موظف يجب احضار شهادة عزوبية</li>
                  <li>إذا كنتَ ابن موظف متقاعد يجب احضار إفادة من وزارة العمل بأنه لا يعمل</li>
                  <li>إذا كنتِ زوجة موظف أو متقاعد يجب احضار شهادة فاعلة بالزواج من كاتب العدل</li>
             </ul>
-            و مقدار الاعفاء هو 100%، ويبدأ من الفصل الأول، ويجب الأخذ بعين الاعتبار أنه لا يجب أن يقل معدلك التراكمي عن 70% لكي تستمر بالاستفادة من هذا الإعفاء
+            <delay>1</delay>
+            اعمل حسابك، إذا قل معدلك التراكمي عن 70%، طار الإعفاء
        </template>
     </category>
 
+    <category>
+        <pattern># <set>sons</set> # <set>work</set> # <set>government</set> # <set>scholarship</set> # </pattern>
+        <template>
+            الك إعفاء كامل، بس لازم تجيب
+            <delay>2</delay>
+            <ul>
+                 <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
+                 <li>إذا كنتِ ابنة موظف يجب احضار شهادة عزوبية</li>
+                 <li>إذا كنتَ ابن موظف متقاعد يجب احضار إفادة من وزارة العمل بأنه لا يعمل</li>
+                 <li>إذا كنتِ زوجة موظف أو متقاعد يجب احضار شهادة فاعلة بالزواج من كاتب العدل</li>
+            </ul>
+            <delay>1</delay>
+            اعمل حسابك، إذا قل معدلك التراكمي عن 70%، طار الإعفاء
+       </template>
+    </category>
+    <!--=============================================================================================================-->
     <category>
         <pattern> # <set>scholarship</set> # <set>patients</set> # </pattern>
         <template>
-            إذا كنت مصاب بالثلاسيميا أو السرطان فنعم ، مع تمنياتنا لك بالشفاء ويجب إحضار
-            <ul>
-                 <li>شهادة صحية من وزارة الصحة</li>
-            </ul>
-            ويبدأ اعفاؤك من الفصل الأول بنسبة 100%
-            غير ذلك لا يوجد اعفاء ولكن يمكنك التقديم للشؤون الاجتماعية
+            إذا كنت مريض ثلاسيميا أو سرطان الك منحة كاملة، الله يشفيك
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة صحية من وزارة الصحة
        </template>
     </category>
 
     <category>
-        <pattern># <set>scholarship</set> # <set>student</set> # <set>countries</set></pattern>
+        <pattern> # <set>patients</set> # <set>scholarship</set> #  </pattern>
         <template>
-            يجب أن تكون من سوريا أو ليبيا أو اليمن لكي تستفيد من هذا الإعفاء بنسبة 100% ويبدأ من الفصل الأول يجب احضار:
-             <ul>
-                 <li>شهادة الميلاد</li>
-                 <li>شهادة الثانوية العامة</li>
-                 <li>أوراق ثبوتية تثبت أنك تم تهجيرك</li>
+            إذا كنت مريض ثلاسيميا أو سرطان الك منحة كاملة، الله يشفيك
+            <split/><delay>1</delay>
+            بس لازم تجيب شهادة صحية من وزارة الصحة
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern># <set>scholarship</set> # <set>student</set> # <set>countries</set> #</pattern>
+        <template>
+            ما في إعفاء مع الأسف
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # <set>uni</set> # <set>contract</set> #</pattern>
+        <template>
+            الك منحة كاملة، بس لازم تجيب:
+            <ul>
+                <li>افادة من شئون الموظفين بالجامعة</li>
+                <li>صورة هوية الموظف والطالب</li>
             </ul>
+            تنتهي المنحة عند انتهاء العقد
        </template>
     </category>
 
     <category>
-        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # الجامعة # </pattern>
+        <pattern># <set>sons</set> # <set>work</set> # <set>uni</set> # <set>contract</set> # <set>scholarship</set> # </pattern>
         <template>
-            لك منحة بنسبة 100% ويجب إحضار:
+            الك منحة كاملة، بس لازم تجيب:
             <ul>
                 <li>افادة من شئون الموظفين بالجامعة</li>
                 <li>صورة هوية الموظف والطالب</li>
             </ul>
+            تنتهي المنحة عند انتهاء العقد
        </template>
     </category>
+    <!--=============================================================================================================-->
     <category>
-        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # جامعة # </pattern>
-        <template>
-            لك منحة بنسبة 100% ويجب إحضار:
-            <ul>
-                <li>افادة من شئون الموظفين بالجامعة</li>
-                <li>صورة هوية الموظف والطالب</li>
-            </ul>
-       </template>
-    </category>
-    <category>
-        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # الجامعه # </pattern>
-        <template>
-            لك منحة بنسبة 100% ويجب إحضار:
-            <ul>
-                <li>افادة من شئون الموظفين بالجامعة</li>
-                <li>صورة هوية الموظف والطالب</li>
-            </ul>
-       </template>
+        <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # <set>uni</set> # </pattern>
+        <template>إلك منحة كاملة بس إنت ادرس ^ـ^</template>
     </category>
 
+    <category>
+        <pattern># <set>sons</set> # <set>work</set> # <set>uni</set> # <set>scholarship</set> # </pattern>
+        <template>إلك منحة كاملة بس إنت ادرس ^ـ^</template>
+    </category>
+    <!--=============================================================================================================-->
     <category>
         <pattern># <set>scholarship</set> # <set>disabledstudent</set> # </pattern>
         <template>
-            إعفاء بنسبة تتراوح ما بين 75% إلى 100% ويجب إحضار شهادة صحية من وزارة الصحة .
+            الك إعفاء بنسبة تتراوح ما بين 75% إلى 100%، بس لازم تجيب شهادة صحية من وزارة الصحة
        </template>
     </category>
 
     <category>
+        <pattern># <set>disabledstudent</set> # <set>scholarship</set> # </pattern>
+        <template>
+            الك إعفاء بنسبة تتراوح ما بين 75% إلى 100%، بس لازم تجيب شهادة صحية من وزارة الصحة
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
         <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # العالي # </pattern>
         <template>
-            مقدار الإعفاء هو 50%، ويبدأ من الفصل الأول و يجب إحضار:
+            للابن الأول منحة كاملة ، الباقي نص منحة، وبتبد من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
             <ul>
                 <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
                 <li>اذا كنتِ أنثى يجب إحضار شهادة عزوبية</li>
             </ul>
-
-
        </template>
     </category>
     <category>
         <pattern># <set>scholarship</set> # <set>sons</set> # <set>work</set> # عالي # </pattern>
         <template>
-            مقدار الإعفاء هو 50%، ويبدأ من الفصل الأول و يجب إحضار:
+            للابن الأول منحة كاملة ، الباقي نص منحة، وبتبد من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
             <ul>
                 <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
                 <li>اذا كنتِ أنثى يجب إحضار شهادة عزوبية</li>
@@ -177,103 +475,133 @@
     </category>
 
     <category>
-        <pattern> # <set>questiontools</set> # <set>student</set> # <set>getbenefits</set> # <set>more</set> #
-                <set>scholarship</set> # </pattern>
+        <pattern># <set>sons</set> # <set>work</set> # العالي # <set>scholarship</set> # </pattern>
         <template>
-            لا يمكن ذلك
+            للابن الأول منحة كاملة ، الباقي نص منحة، وبتبد من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
+                <li>اذا كنتِ أنثى يجب إحضار شهادة عزوبية</li>
+            </ul>
+       </template>
+    </category>
+    <category>
+        <pattern># <set>sons</set> # <set>work</set> # عالي # <set>scholarship</set> # </pattern>
+        <template>
+            للابن الأول منحة كاملة ، الباقي نص منحة، وبتبد من الفصل الأول بس لازم تجيب
+            <delay>1</delay>
+            <ul>
+                <li>شهادة فاعلة من وزارة التربية والتعليم العالي</li>
+                <li>اذا كنتِ أنثى يجب إحضار شهادة عزوبية</li>
+            </ul>
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern> # <set>getbenefits</set> # <set>more</set> # <set>scholarship</set> # </pattern>
+        <template>
+            ما بنفع للأسف
+       </template>
+    </category>
+    <category>
+        <pattern> #  <set>more</set> # <set>scholarship</set> # <set>getbenefits</set> # </pattern>
+        <template>
+            ما بنفع للأسف
+       </template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern> # <set>subject</set> # <set>equivalencies</set> # <set>scholarship</set> # </pattern>
+        <template>
+            ما بنفع للأسف
        </template>
     </category>
 
     <category>
-        <pattern> # <set>questiontools</set> # <set>subject</set> # <set>equivalencies</set> # <set>scholarship</set> # </pattern>
+        <pattern> # نسبه # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
-            لا يمكن ذلك
+           منحة كاملة إذا كانت الأسيرة محكوم عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
        </template>
     </category>
 
     <category>
-        <pattern> # <set>questiontools</set> # نسبه # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
+        <pattern> # نسبة # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
         <template>
-           100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
+           منحة كاملة إذا كانت الأسيرة محكوم عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
        </template>
     </category>
 
     <category>
-        <pattern># <set>questiontools</set> # نسبة # <set>scholarship</set> # <set>sons</set> # <set>prisoners</set> # </pattern>
+        <pattern> # <set>condition</set> # <set>scholarship</set> # </pattern>
         <template>
-            100% إذا كانت الأسيرة محكوماً عليها مدة لا تقل عن ثلاث سنوات، ومضى على أسرها مدة لا تقل عن سنة واحدة.
+            يجب أن يكون مسجل 12 ساعة على الأقل في الفصل الدراسي النظامي اللي مفعل فيه الإعفاء
        </template>
     </category>
 
     <category>
-        <pattern># <set>questiontools</set> # <set>condition</set> # <set>scholarship</set> # </pattern>
+        <pattern> # <set>scholarship</set> # <set>condition</set> #</pattern>
         <template>
-            يجب أن يكون مسجلاً ل 12 ساعة معتمدة على الأقل في الفصل الدراسي النظامي الخاضع للإعفاء.
+            يجب أن يكون مسجل 12 ساعة على الأقل في الفصل الدراسي النظامي اللي مفعل فيه الإعفاء
        </template>
     </category>
 
     <category>
-        <pattern># <set>questiontools</set> # <set>requiredaverage</set> # <set>getbenefits</set> # <set>scholarship</set> # </pattern>
+        <pattern> # <set>requiredaverage</set> # <set>getbenefits</set> # <set>scholarship</set> # </pattern>
         <template>
-            يجب أن يكون معدلك التراكمي 70% فما فوق
+            لازم يكون معدلك التراكمي 70% فما فوق
        </template>
     </category>
-
+    <!--=============================================================================================================-->
     <category>
         <pattern># <set>questiontools</set> # <set>sections</set> # <set>scholarship</set> # نفس الفصل #</pattern>
         <template>
-            يختار الطالب الاستفادة من أحدهما
+            اختار وحدة منهم
        </template>
     </category>
 
     <category>
         <pattern># <set>questiontools</set> # <set>sections</set> # <set>scholarship</set> # نفس فصل #</pattern>
         <template>
-            يختار الطالب الاستفادة من أحدهما
+            اختار وحدة منهم
        </template>
     </category>
-
+    <!--=============================================================================================================-->
     <category>
         <pattern># <set>questiontools</set> # صيفي # <set>scholarship</set> #</pattern>
-        <template>
-            لا يمكن ذلك
-       </template>
+        <template>ما بنفع للأسف</template>
     </category>
 
     <category>
         <pattern># <set>questiontools</set> # الصيفي # <set>scholarship</set> #</pattern>
-        <template>
-            لا يمكن ذلك
-       </template>
+        <template>ما بنفع للأسف</template>
     </category>
 
     <category>
         <pattern># <set>questiontools</set> # <set>scholarship</set> # الصيفي # </pattern>
+        <template>ما بنفع للأسف</template>
+    </category>
+    <!--=============================================================================================================-->
+    <category>
+        <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # رسوم # </pattern>
         <template>
-            لا يمكن ذلك
-       </template>
+            لازم يكون محكوم لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات
+        </template>
     </category>
 
     <category>
-        <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # رسوم #</pattern>
-        <template>
-            يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
-        </template>
-    </category>
-    
-    <category>
         <pattern> <set>questiontools</set> # <set>condition</set> # <set>sons</set> # <set>prisoners</set> # الرسوم #</pattern>
         <template>
-            يجب أن يكون محكوماً لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات .
+            لازم يكون محكوم لمدة لا تقل عن خمس سنوات، وقد مضى على أسره مدة لا تقل عن ثلاث سنوات
        </template>
     </category>
 
     <category>
         <pattern> # <set>questiontools</set> # <set>registration</set> # <set>specialization</set> # </pattern>
         <template>
-            إليك خطوات الالتحاق بالبرنامج المطلوب :
+            إليك خطوات الالتحاق بالبرنامج المطلوب
+            <delay>2</delay>
             <ul>
-                <li>دفع ٢٠ دينار كرسوم للالتحاق </li>
+                <li>دفع ٢٠ دينار رسوم للالتحاق</li>
                 <li>تعبئة الطلب إلكترونياً</li>
                 <li>سوف تصلك رسالة بالتخصص الذي تم قبولك فيه</li>
                 <li>عليك الحضور للتصوير داخل الصالة المخصصة</li>

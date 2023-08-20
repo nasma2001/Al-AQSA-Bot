@@ -136,7 +136,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>history</set> # <set>teachingmethods</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للتاريخ وأساليب تدريسه</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5309/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
@@ -147,7 +147,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>history</set># </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للتاريخ وأساليب تدريسه</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5309/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
@@ -158,7 +158,7 @@
 	<category>
 	  <pattern> # <set>studyplan</set> # <set>history</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للتاريخ </text>
 		        <url>https://www.alaqsa.edu.ps/ar/page/5899/جامعة-الأقصى-كلية-الآداب-والعلوم-الإنسانية-التاريخ-الخطة-الدراسية</url>
@@ -235,7 +235,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>physics</set> # <set>teachingmethods</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للفيزياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5272/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</url>
@@ -246,7 +246,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>physics</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للفيزياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5272/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</url>
@@ -257,7 +257,7 @@
 	<category>
 		<pattern> # <set>studyplan</set> # <set>physics</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للفيزياء  </text>
 		        <url>https://alaqsa.edu.ps/ar/page/5265/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الفيزياء-الخطة-الدراسية</url>
@@ -268,7 +268,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>chemistry</set> # <set>teachingmethods</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للكيمياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5394/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</url>
@@ -279,7 +279,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>chemistry</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للكيمياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5394/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</url>
@@ -290,7 +290,7 @@
 	<category>
 		<pattern> # <set>studyplan</set> # <set>chemistry</set> # </pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>للكيمياء </text>
 		        <url>https://alaqsa.edu.ps/ar/page/5286/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الكيمياء-الخطة-الدراسية</url>
@@ -302,7 +302,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>biology</set> # <set>teachingmethods</set> #</pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>الأحياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5344/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
@@ -313,7 +313,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>teachingmethods</set> # <set>biology</set> #</pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>الأحياء وأساليب تدريسها</text>
 		        <url>https://alaqsa.edu.ps/ar/page/5344/جامعة-الأقصى-كلية-التربية-المناهج-والتدريس-الخطة-الدراسية</url>
@@ -325,7 +325,7 @@
 	<category>
 		<pattern> # <set>studyplan</set> # <set>biology</set> #</pattern>
 		<template>
-		    إليك رابط الخطة الدراسية:
+		    إليك رابط الخطة الدراسية
 		    <link>
 		        <text>الأحياء </text>
 		        <url>https://alaqsa.edu.ps/ar/page/5403/جامعة-الأقصى-كلية-العلوم-التطبيقية-قسم-الاحياء-الخطة-الدراسية</url>
@@ -413,7 +413,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>computerengneering</set> # </pattern>
 		<template>
-		     :يا هلا بجماعتناأحلا رابط لحضرة المهندس
+		     يا هلا بجماعتنا أحلا رابط لحضرة المهندس
 		    <link>
 		        <text>
 		          خطة هندسة النظم الذكية والحاسوب
@@ -426,7 +426,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>computersciencemajor</set> # </pattern>
 		<template>
-		     أحلا ناس في الكوكب، تفضل هي خطة تخصصنا ،استمتع يا افندم
+			أحلا ناس في الكوكب، تفضل هي خطة تخصصنا
 		    <link>
 		        <text>
 		            خطة علم الحاسوب
@@ -450,7 +450,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>techappliedsciencemajor</set> # </pattern>
 		<template>
-            اووه قريبنا انت بس دير بالك ع حالك، هي الرابط:
+            اووه قريبنا انت بس دير بالك ع حالك، هي الرابط
             <link>
                 <text>تكنولوجيا المعلومات التطبيقية</text>
                 <url>https://alaqsa.edu.ps/ar/page/5702/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-علوم-الحاسوب-والمعلومات-الخطة-الدراسية</url>
@@ -461,7 +461,7 @@
     <category>
 		<pattern> # <set>studyplan</set> # <set>multimediamajor</set> # </pattern>
 		<template>
-			 يا هلا بجماعتنا تفضل هي الرابط:
+			 يا هلا بجماعتنا تفضل هي الرابط
 			 <link>
 			     <text>الوسائط المتعددة</text>
 			     <url>https://alaqsa.edu.ps/ar/page/6056/جامعة-الأقصى-كلية-الحاسبات-وتكنولوجيا-المعلومات-الهندسة-والشبكات-الخطة-الدراسية</url>

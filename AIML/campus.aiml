@@ -35,67 +35,64 @@
             </ul>
         </template> 
 	</category>
+
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # 8000 #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب : اول مبنى ع ايدك اليمين</li>
-                <li>من بوابة البنات : الطريق طويل يختي اسألي بعينك الله</li>
-            </ul>
+                من بوابة الشباب : اول مبنى ع ايدك اليمين
+                <split/><delay>1</delay>
+                من بوابة البنات : الطريق طويل يختي اسألي بعينك الله
         </template>
     </category>
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # ٨٠٠٠ #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب : اول مبنى ع ايدك اليمين</li>
-                <li>من بوابة البنات : الطريق طويل يختي اسألي بعينك الله</li>
-            </ul>
+                من بوابة الشباب : اول مبنى ع ايدك اليمين
+                <split/><delay>1</delay>
+                من بوابة البنات : الطريق طويل يختي اسألي بعينك الله
         </template>
     </category>
+
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # KSA #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب : آخر الشارع اللي ع ايدك اليمين</li>
-                <li>من بوابة البنات : بتفوتي من عند الملعب وبتضلك عدل</li>
-            </ul>
+                من بوابة الشباب : آخر الشارع اللي ع ايدك اليمين
+                            <split/><delay>1</delay>
+                من بوابة البنات : بتفوتي من عند الملعب وبتضلك عدل
         </template>
     </category>
+
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # ٢٠٠٠ #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب :بعيد يخوي بعينك الله اسال</li>
-                <li>من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر</li>
-            </ul>
+                من بوابة الشباب : بعيد يخوي بعينك الله اسأل
+                            <split/><delay>1</delay>
+                من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر
         </template>
     </category>
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # 2000 #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب :بعيد يخوي بعينك الله اسال</li>
-                <li>من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر</li>
-            </ul>
+                من بوابة الشباب : بعيد يخوي بعينك الله اسأل
+                            <split/><delay>1</delay>
+                من بوابة البنات : اول ما تفوتي من البوابة تاني شارع ع ايدك الشمال امشي 20 متر
         </template>
     </category>
+
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # ١٠٠٠ #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب :بعيد يخوي بعينك الله اسال</li>
-                <li>من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك</li>
-            </ul>
+                من بوابة الشباب :بعيد يخوي بعينك الله اسال
+                                        <split/><delay>1</delay>
+                من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك
         </template>
     </category>
     <category>
         <pattern># <set>questiontools</set> # <set>building</set> # 1000 #</pattern>
         <template>
-            <ul>
-                <li>من بوابة الشباب :بعيد يخوي بعينك الله اسال</li>
-                <li>من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك</li>
-            </ul>
+                من بوابة الشباب :بعيد يخوي بعينك الله اسال
+                                        <split/><delay>1</delay>
+                من بوابة البنات : اول ما تفوتي من البوابة اول شارع ع ايدك الشمال المبنى يلي بوجهك
         </template>
     </category>
 
