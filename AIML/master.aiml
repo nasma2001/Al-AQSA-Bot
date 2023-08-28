@@ -31,7 +31,7 @@
 		<pattern> # <set>availableprograms</set> #<set>phd</set>#</pattern>
 		<template>
                الارشاد النفسي والتربوي ، الادارة التربوية
-        </template> 
+        </template>
 	</category>
 
 	<category>
@@ -129,7 +129,7 @@
 		</template>
 	</category>
 	<category>
-		<pattern> # <set>study</set> # <set>work</set> # </pattern>
+		<pattern> # <set>study</set> # <set>work</set> # <set>study</set> # </pattern>
 		<template>
 			نعم يمكنك العمل بجانب دراستك.
 		</template>
